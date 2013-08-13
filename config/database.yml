@@ -11,11 +11,11 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: sagepoint_portal_development
+  database: SkillWebTest_development
   pool: 5
   username: root
-  password:
-  socket: /var/run/mysqld/mysqld.sock
+  password: root
+  host: localhost
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -23,17 +23,17 @@ development:
 test:
   adapter: mysql2
   encoding: utf8
-  database: sagepoint_portal_test
+  database: SagePoint_test
   pool: 5
   username: root
-  password:
-  socket: /var/run/mysqld/mysqld.sock
+  password: root
+  host: localhost
 
 production:
   adapter: mysql2
   encoding: utf8
-  database: sagepoint_portal_production
+  database: SagePoint_prod
   pool: 5
   username: root
-  password:
-  socket: /var/run/mysqld/mysqld.sock
+  password: root
+  host: localhost

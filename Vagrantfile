@@ -1,9 +1,16 @@
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "precise32-chef"
+  config.vm.box = "precise32"
   config.vm.box_url = "http://grahamc.com/vagrant/ubuntu-12.04.2-i386-chef-11-omnibus.box"
   config.vm.provision :shell, :path => "bootstrap.sh"
+  config.vm.hostname = "sagepoint-portal"
   config.vm.network :forwarded_port, host: 4567, guest: 80
+
+  config.vm.provision :puppet do |puppet|
+    puppet.manifests_path = "./puppet/manifests"
+    puppet.module_path = "./puppet/modules"
+    puppet.manifest_file = "site.pp"
+  end
 
   # Boot with a GUI so you can see the screen. (Default is headless)
   # config.vm.boot_mode = :gui
@@ -58,7 +65,7 @@ Vagrant.configure("2") do |config|
 
 
   # Enable provisioning with chef solo, specifying a cookbooks path, roles
-  # path, and data_bags path (all relative to this Vagrantfile), and adding 
+  # path, and data_bags path (all relative to this Vagrantfile), and adding
   # some recipes and/or roles.
   #
   # config.vm.provision :chef_solo do |chef|
