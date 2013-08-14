@@ -1,7 +1,6 @@
 import 'motd.pp'
-
-package { 'build-essential':
-	ensure => installed
-}
-
+import 'environment.pp'
+class {'users::admin': }
 import 'passenger.pp'
+
+
