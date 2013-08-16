@@ -8,10 +8,20 @@
 #
 # And be sure to use new-style password hashing:
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
-development:
+skillweb:
   adapter: mysql2
   encoding: utf8
   database: SkillWebTest_development
+  pool: 5
+  username: root
+  password: root
+  port: 8889
+  host: 127.0.0.1
+
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: SagePoint_dev
   pool: 5
   username: root
   password: root
