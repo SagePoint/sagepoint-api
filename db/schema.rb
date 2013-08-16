@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130816222534) do
+ActiveRecord::Schema.define(version: 20130816225811) do
 
   create_table "addresses", force: true do |t|
     t.string  "address1"
@@ -283,6 +283,40 @@ ActiveRecord::Schema.define(version: 20130816222534) do
     t.integer  "version"
     t.text     "description"
     t.datetime "created_at"
+  end
+
+  create_table "resource_profiles", force: true do |t|
+    t.string   "email"
+    t.integer  "employer_id"
+    t.integer  "emp_serial_no"
+    t.string   "first_name"
+    t.string   "surname"
+    t.integer  "pay_type_id"
+    t.integer  "commited_tasks"
+    t.integer  "completed_tasks"
+    t.integer  "contact_profile_id"
+    t.integer  "user_id"
+    t.datetime "hire_date"
+    t.text     "about_me"
+    t.integer  "commitment",            default: 0
+    t.string   "pm_rating"
+    t.datetime "contract_end_date"
+    t.integer  "manager_id"
+    t.integer  "title_id"
+    t.integer  "division_id"
+    t.boolean  "is_enabled",            default: true
+    t.string   "external_profile_link"
+    t.text     "custom_field_0"
+    t.text     "custom_field_1"
+    t.text     "custom_field_2"
+    t.boolean  "needs_update",          default: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "user_aliases", force: true do |t|
+    t.integer "user_id",    null: false
+    t.text    "alias_hash"
   end
 
   create_table "users", force: true do |t|
