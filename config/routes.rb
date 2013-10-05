@@ -1,4 +1,15 @@
 SagepointPortal::Application.routes.draw do
+	get 'admin' => 'admin#index'
+
+	controller :secure_test do
+		get 'secure' => :index
+	end
+
+	controller :sessions do
+		get 'login' => :new
+		post 'login' => :create
+		delete 'logout' => :destroy
+	end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -39,7 +50,7 @@ SagepointPortal::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
