@@ -28,6 +28,16 @@ development:
   port: 8889
   host: 127.0.0.1
 
+development-ubuntu:
+  adapter: mysql2
+  encoding: utf8
+  database: SkillWebTest_development
+  pool: 5
+  username: root
+  password: root
+  port: 3306
+  host: 127.0.0.1
+
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
