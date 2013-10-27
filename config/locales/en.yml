@@ -26,5 +26,6 @@ en:
         invalid_token: 'Invalid authentication token'
       sessions:
         invalid_login: 'Login information is incorrect, please try again'
-
+      unauthorized:	'You must be logged in to do that'
+      unprivileged:	'You do not have the access rights to do that'
 
