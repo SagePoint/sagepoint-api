@@ -22,7 +22,10 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.string  "description"
     t.integer "employer_id"
     t.string  "country"
-    t.boolean "enabled",     default: true
+    t.boolean "enabled",                             default: true
+    t.boolean "is_admin",                            default: true
+    t.decimal "latitude",    precision: 9, scale: 6
+    t.decimal "longitude",   precision: 9, scale: 6
   end
 
   create_table "billings", force: true do |t|
@@ -163,6 +166,24 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.integer  "user_id"
   end
 
+  create_table "login_events", force: true do |t|
+    t.integer  "user_id"
+    t.string   "email"
+    t.string   "source_ip"
+    t.string   "ua_hash",        limit: 32
+    t.string   "ua_full",        limit: 512
+    t.boolean  "was_successful"
+    t.boolean  "was_tsl",                    default: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "logins", force: true do |t|
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "match_logs", force: true do |t|
     t.integer  "employer_id"
     t.integer  "resource_profile_id"
@@ -189,6 +210,14 @@ ActiveRecord::Schema.define(version: 20131016230000) do
   end
 
   add_index "match_results", ["task_profile_id"], name: "index_match_results_on_task_profile_id", using: :btree
+
+  create_table "metrics", force: true do |t|
+    t.string   "query"
+    t.string   "description"
+    t.datetime "last_run"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "node_dependencies", force: true do |t|
     t.integer "skill_node_id"
@@ -254,7 +283,7 @@ ActiveRecord::Schema.define(version: 20131016230000) do
 
   create_table "reports", force: true do |t|
     t.string   "title"
-    t.string   "parameter_list"
+    t.string   "parameter_list", limit: 63000
     t.integer  "report_type_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -446,7 +475,7 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.string "skill_desc"
   end
 
-  add_index "skills", ["skill_desc"], name: "skill_desc"
+  add_index "skills", ["skill_desc"], name: "skill_desc", type: :fulltext
 
   create_table "survey_profiles", force: true do |t|
     t.string  "survey_version"
@@ -575,11 +604,19 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.string   "authentication_token"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "tos_accepted"
   end
 
   add_index "users", ["authentication_token"], name: "index_users_on_authentication_token", unique: true, using: :btree
   add_index "users", ["email", "employer_id"], name: "index_users_on_email_and_employer_id", unique: true, using: :btree
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
+
+  create_table "users_addresses", id: false, force: true do |t|
+    t.integer  "user_id"
+    t.integer  "address_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

@@ -6,7 +6,7 @@ namespace :devise do
       model_mailer = "#{model}Mailer".constantize
       model = model.constantize
 
-      model.find_each(:conditions => 'id = 980') do |record|
+      model.find_each(:conditions => ['email = ?', "dev@sagepointsoftware.com"]) do |record|
         # Assign a random password
         random_password = User.send(:generate_token, 'encrypted_password').slice(0, 8)
         record.password = random_password

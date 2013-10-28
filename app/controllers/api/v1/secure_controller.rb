@@ -6,6 +6,6 @@ class Api::V1::SecureController < ApplicationController
   before_filter :authenticate_user
 
   def index
-  	render :json => {:yay => "You're in !"}
+  	render :json => {:yay => "You're in !", :session => session}
   end
 end
