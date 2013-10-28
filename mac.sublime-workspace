@@ -1,0 +1,1802 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addresses"
+			],
+			[
+				"GetC",
+				"getCustomerName"
+			],
+			[
+				"ng-switc",
+				"ng-switch-when	angular switch-when"
+			],
+			[
+				"ng-sw",
+				"ng-switch-when	angular switch-when"
+			],
+			[
+				"ro",
+				"rotateBy"
+			],
+			[
+				"re",
+				"resizeImage"
+			],
+			[
+				"rotate",
+				"rotateImage"
+			],
+			[
+				"canvas",
+				"canvasWidth"
+			],
+			[
+				"RxQ",
+				"RxQueueProvider"
+			],
+			[
+				"get",
+				"getNextDoctor"
+			],
+			[
+				"Cyl",
+				"CylHasAxis"
+			],
+			[
+				"Ax",
+				"AxisInRange"
+			],
+			[
+				"Sph",
+				"SphCylSumInRange"
+			],
+			[
+				"http",
+				"httpProvider"
+			],
+			[
+				"sho",
+				"show_tasks"
+			],
+			[
+				"im",
+				"im_namecell_num"
+			],
+			[
+				"conta",
+				"contact_profile"
+			],
+			[
+				"resource",
+				"resource_profile"
+			],
+			[
+				"is",
+				"is_partner"
+			],
+			[
+				"not",
+				"notes_placeholder"
+			],
+			[
+				"short",
+				"shortlist_placeholder"
+			],
+			[
+				"cancel",
+				"cancel_resource_request"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "puppet/manifests/site.pp",
+			"settings":
+			{
+				"buffer_size": 90,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap.sh",
+			"settings":
+			{
+				"buffer_size": 102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "puppet/manifests/passenger.pp",
+			"settings":
+			{
+				"buffer_size": 506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "puppet/modules/users/manifests/admin.pp",
+			"settings":
+			{
+				"buffer_size": 236,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "puppet/manifests/environment.pp",
+			"settings":
+			{
+				"buffer_size": 238,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/initializers/session_store.rb",
+			"settings":
+			{
+				"buffer_size": 159,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 1202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/skill_web/app/models/user_alias.rb",
+			"settings":
+			{
+				"buffer_size": 735,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user_alias.rb",
+			"settings":
+			{
+				"buffer_size": 115,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/models/user_test.rb",
+			"settings":
+			{
+				"buffer_size": 205,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20130816222534_create_users.rb",
+			"settings":
+			{
+				"buffer_size": 517,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20130816224846_create_resource_profile.rb",
+			"settings":
+			{
+				"buffer_size": 892,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20130816230226_create_employers.rb",
+			"settings":
+			{
+				"buffer_size": 944,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"reins",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"setpupp",
+				"Set Syntax: Puppet"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"setless",
+				"Set Syntax: LESS"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"conve",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"specific",
+				"Preferences: Alignment File Settings – Syntax Specific – User"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax spe",
+				"Preferences: Alignment File Settings – Syntax Specific – User"
+			],
+			[
+				"prefer",
+				"Preferences: Settings - User"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"syntaxspe",
+				"Preferences: Alignment File Settings – Syntax Specific – User"
+			],
+			[
+				"contab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"index",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo ",
+				"Package Control: Remove Package"
+			],
+			[
+				"angu",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"space",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"line",
+				"Sort Lines"
+			],
+			[
+				"bootstrap",
+				"Snippet: Bootstrap error badge"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"dele",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tail",
+				"Trailing Spaces: Toggle Trailing Spaces Highlighting"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"reint",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wordw",
+				"Word Wrap: Toggle"
+			],
+			[
+				"boot bade",
+				"Snippet: Bootstrap warning badge"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"hero",
+				"Snippet: Bootstrap hero example"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wra",
+				"Snippet: Wrap Selection in Open/Close Tag"
+			],
+			[
+				"8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"pep8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"thum",
+				"Snippet: Bootstrap thumbnails"
+			],
+			[
+				"apach",
+				"Set Syntax: Apache Conf"
+			],
+			[
+				"bootstrap h	",
+				"Snippet: Bootstrap tabbable navigation tabs on the left"
+			],
+			[
+				"hero	",
+				"Snippet: Bootstrap hero example"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"andrew",
+				"Andrew: New Android Project"
+			],
+			[
+				"outer		",
+				"Snippet: output ERB tags"
+			],
+			[
+				"image",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"emmet",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"emme",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"eva",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"split",
+				"Emmet: Split\\Join Tag"
+			],
+			[
+				"emmetren",
+				"Emmet: Rename Tag"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"fetc",
+				"Fetch: Manage"
+			],
+			[
+				"fethc",
+				"Fetch: Package"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"index",
+			"grunt",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jarad.delorenzo/code/sagepoint-portal/config/environments/skillweb.rb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/config/database.yml",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/config/environments/development.rb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/config/routes.rb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/db/migrate/20130816225811_create_user_alias.rb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/db/migrate/20130816222354_create_user_table.rb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/Gemfile",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/config/environments/production.rb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/app/models/user.rb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/app/models/devise_user.rb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/db/migrate/20130814224908_users_to_devise.rb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/bin/bundle",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/config/environment.rb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/puppet/modules/rvm/manifests/passenger/apache/ubuntu/post.pp",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/puppet/modules/railsapp/manifests/ruby.pp",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/Vagrantfile",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/puppet/modules/users/manifests/base.pp",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/puppet/manifests/environment.pp",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/puppet/modules/railsapp/manifests/init.pp",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/puppet/modules/railsapp/README.md",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/puppet/modules/users/templates/default_bash_profile.erb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/config/initializers/session_store.rb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/config/initializers/secret_token.rb",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/puppet/manifests/passenger.pp",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/site.pp",
+		"/Users/jarad.delorenzo/code/sagepoint-portal/puppet/manifests/nodes.pp",
+		"/Users/jarad.delorenzo/code/wp-magento/js/warby/events_tracking_checkout_int.js",
+		"/Users/jarad.delorenzo/code/wp-magento/js/warby/checkout.js",
+		"/Users/jarad.delorenzo/code/wp-magento/app/design/frontend/base/default/template/catalog/product/view/type/configurable.phtml",
+		"/Users/jarad.delorenzo/code/wp-magento/daemon_boot.php",
+		"/Users/jarad.delorenzo/www/skill_web/app/views/layouts/_user_feedback.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/ep.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/tasks.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/task_requirement.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/skill_web_tree.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/account.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/projects.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/manage.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/ex.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/admin.rhtml",
+		"/Users/jarad.delorenzo/www/skill_web/app/views/ep/add_experience.rhtml",
+		"/Users/jarad.delorenzo/www/skill_web/app/views/alpha/index.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/admin/dashboard/main.js",
+		"/Users/jarad.delorenzo/www/skill_web/app/views/layouts/scaffold.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/assets/less/plugins.less",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/lib/jquery.notifybar.js",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/libs.js",
+		"/Users/jarad.delorenzo/code/wp-magento/index.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Connection/AbstractConnection.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Connection/AMQPStreamConnection.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Channel/AbstractChannel.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Message/AMQPMessage.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Wire/GenericContent.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Wire/Constants091.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Wire/Constants080.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Wire/IO/StreamIO.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Wire/IO/SocketIO.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Wire/IO/AbstractIO.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Exception/AMQPOutOfBoundsException.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Exception/AMQPExceptionInterface.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Exception/AMQPProtocolConnectionException.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Connection/AMQPSocketConnection.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Connection/AMQPConnection.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Connection/AMQPLazyConnection.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Helper/Protocol/MethodMap091.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Helper/Protocol/Protocol091.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Channel/AMQPChannel.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Exception/AMQPChannelException.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Exception/AMQPProtocolChannelException.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Helper/Protocol/MethodMap080.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Helper/Protocol/Wait080.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Helper/Protocol/Protocol080.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Exception/AMQPConnectionException.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Exception/AMQPException.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Exception/AMQPProtocolException.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Helper/MiscHelper.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Exception/AMQPRuntimeException.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Exception/AMQPTimeoutException.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Wire/AMQPDecimal.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Wire/AMQPReader.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Helper/Protocol/Wait091.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Tests/Unit/Wire/AMQPWriterTest.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Tests/Unit/WireTest.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Wire/AMQPWriter.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Connection/AMQPSSLConnection.php",
+		"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib/Tests/Functional/StreamPublishConsumeTest.php",
+		"/Users/jarad.delorenzo/code/wp-magento/cron.php",
+		"/Users/jarad.delorenzo/code/wp-magento/app/etc/local.xml",
+		"/Users/jarad.delorenzo/code/wp-magento/app/code/local/Warby/Payment/Model/Warbycc.php",
+		"/Users/jarad.delorenzo/www/skill_web/app/views/partial/_view_resource_request_out.rhtml",
+		"/Users/jarad.delorenzo/www/skill_web/app/views/partial/_canceled_resource_request.rhtml",
+		"/Users/jarad.delorenzo/www/skill_web/app/views/admin/_partner.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/manage/resource_requests.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_pm_res_overview.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/manage_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/manage/resource_search.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20130802104400_update_random_created_at_dates.rb",
+		"/Applications/MAMP/htdocs/skill_web/test/fixtures/users.yml",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/012_create_users.rb",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20130728125000_insert_metrics_data.rb",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20130802095200_create_actual_metrics_data.rb",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20130802095000_drop_old_metrics_data.rb",
+		"/Users/jarad.delorenzo/code/wp-magento/app/design/frontend/base/default/template/sales/order/history.phtml",
+		"/Users/jarad.delorenzo/code/wp-magento/app/code/local/Warby/Hometryon/Block/Adminhtml/Hometryon/Edit/Tabs.php",
+		"/Users/jarad.delorenzo/code/wp-magento/app/code/local/Warby/Prescription/Model/Orders.php",
+		"/Users/jarad.delorenzo/code/wp-magento/app/code/core/Mage/Sales/Model/Abstract.php",
+		"/Users/jarad.delorenzo/code/wp-magento/app/code/local/Warby/Prescription/Model/Mysql4/Orders.php",
+		"/Users/jarad.delorenzo/code/wp-magento/app/design/frontend/base/default/template/sales/order/view.phtml",
+		"/Users/jarad.delorenzo/code/wp-magento/app/code/local/Warby/Sales/Block/Order/History.php",
+		"/Applications/MAMP/htdocs/skill_web/vendor/rails/activerecord/lib/activerecord.rb",
+		"/Users/jarad.delorenzo/code/hibbert/app/scripts/app.js",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/app/scripts/controllers/doctor.js",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/app/partials/_prescriptionform.html",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/app/scripts/directives/prescriptionimage.js",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/dist/views/doctor.html",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/config/deploy/production.rb",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/config/deploy/staging.rb",
+		"/Users/jarad.delorenzo/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jarad.delorenzo/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/app/scripts/controllers/prescriptionImage.js",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/app/scripts/services/urlRoot.js",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/app/scripts/services/PrescriptionManipulation.js",
+		"/Users/jarad.delorenzo/Library/Application Support/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/app/views/doctor.html",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/app/index.html",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/app/scripts/directives/prescriptionform.js",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/app/scripts/controllers/prescriptionForm.js",
+		"/Users/jarad.delorenzo/code/tool/FrontEnd/app/scripts/app.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/jarad.delorenzo/code/sagepoint-portal",
+			"/Users/jarad.delorenzo/www/skill_web",
+			"/Users/jarad.delorenzo/code/wp-magento",
+			"/Users/jarad.delorenzo/www/skill_web",
+			"/Users/jarad.delorenzo/www/sagepoint",
+			"/Users/jarad.delorenzo/code/wp-magento",
+			"/Users/jarad.delorenzo/www/skill_web",
+			"/Users/jarad.delorenzo/code/wp-magento/lib/PhpAmqpLib",
+			"/Users/jarad.delorenzo/code/wp-magento",
+			"/Users/jarad.delorenzo/www/skill_web",
+			"/Users/jarad.delorenzo/www/skill-web",
+			"/Users/jarad.delorenzo/code/wp-magento",
+			"/Users/jarad.delorenzo/www/skill_web",
+			"/Users/jarad.delorenzo/code/tool/FrontEnd",
+			"/Users/jarad.delorenzo/code/tool/FrontEnd/app/ ,-/Users/jarad.delorenzo/code/tool/FrontEnd/app/components/*",
+			"/Users/jarad.delorenzo/code/tool/FrontEnd/app/ ,-/Users/jarad.delorenzo/code/tool/FrontEnd/app/components",
+			"/Users/jarad.delorenzo/code/tool/FrontEnd/app/",
+			"/Users/jarad.delorenzo/code/tool/FrontEnd",
+			"/Users/jarad.delorenzo/code/tool/FrontEnd/app/scripts",
+			"/Users/jarad.delorenzo/code/tool/FrontEnd/app",
+			"/Users/jarad.delorenzo/code/tool/FrontEnd",
+			"/Users/jarad.delorenzo/code/tool/RxProvider",
+			"/Users/jarad.delorenzo/code/tool/FrontEnd",
+			"/Applications/MAMP/htdocs/skill_web"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"action_mail",
+			"sagepoint-portal",
+			"\\\\",
+			"\\",
+			"\\\\",
+			"               ___               __           _                                      _\n              /   \\_____   __   /__\\ ____   _(_)_ __ ___  _ __  _ __ ___   ___ _ __ | |_\n _____ _____ / /\\ / _ \\ \\ / /  /_\\| '_ \\ \\ / / | '__/ _ \\| '_ \\| '_ ` _ \\ / _ \\ '_ \\| __|____ _____\n|_____|_____/ /_//  __/\\ V /  //__| | | \\ V /| | | | (_) | | | | | | | | |  __/ | | | ||_____|_____|\n           /___,' \\___| \\_/   \\__/|_| |_|\\_/ |_|_|  \\___/|_| |_|_| |_| |_|\\___|_| |_|\\__|\n\n",
+			"\\\\",
+			"\\\\n",
+			"\\\\\\\\n",
+			"\\\\",
+			"\\",
+			"getPayment",
+			"getBillin",
+			"Mage",
+			"log\\(",
+			"log",
+			"_placePa",
+			"place(",
+			"_after",
+			"pc_message",
+			"pc_",
+			"pc_reques",
+			"pc_",
+			"pc_conn",
+			"pc_",
+			"partnerId",
+			"id=\"partnerId\"",
+			"partnerId",
+			"parnerId",
+			"partnerSettings",
+			"\" ",
+			"pc-cancel",
+			"#pc-cancel",
+			"pc_cancel",
+			"submitRequest\\(",
+			"checkout.*step-.*",
+			"checkout.*step.*",
+			"checkout.*step.*disallow",
+			"disallow",
+			"checkout-step",
+			"disallow",
+			"opacity:",
+			"opacity: 0.5",
+			"opacity",
+			"disallow",
+			"checkout-step-shipping",
+			"checkout.*disallow",
+			"checkout-step-shipping",
+			"checkout-step-sh",
+			"disa",
+			"shipping-address-subsection",
+			"itemPrice",
+			"review-subtotal",
+			"review",
+			"Yes",
+			"confirm",
+			"cancelled",
+			"Approved",
+			"cssClass=",
+			" = ",
+			"=",
+			"partnerSettingsView",
+			"notifyBar.*html",
+			"this will cancel",
+			"this will cancel the partner",
+			"def.*pc",
+			"flash",
+			"Created",
+			"disa.*user",
+			"userfeedback",
+			"flash\\[",
+			"BALLS",
+			"rset.*pass",
+			"password",
+			"reset.*pass",
+			"reset_pass",
+			"flash\\[:notice",
+			"html",
+			"flash\\[:notice",
+			":notice",
+			"user_edit",
+			"user.*update",
+			"update.*user",
+			"rabbit.*listen",
+			"ticknotify",
+			"bootstrap.js",
+			"userProfile",
+			"toggle",
+			"userAddProfileModal",
+			"userAddProfile_modal",
+			"first",
+			"flash\\[:notice\\]",
+			"flash[:notice]",
+			"unlock",
+			"Task Reopened",
+			"complete",
+			"cancel_re",
+			"rrm_request",
+			"cancel",
+			"request",
+			"resend",
+			"GenericContent",
+			"Constants091",
+			"Constants080",
+			"new",
+			"AMQPProtocolConnectionException",
+			"AMQPSocketConnection",
+			"AMQPLazyConnection",
+			"AMQPConnection",
+			"new",
+			"MethodMap091",
+			"Protocol091",
+			"new",
+			"AMQPProtocolChannelException",
+			"AMQPMessage",
+			"new",
+			"MethodMap080",
+			"Wait080",
+			"Protocol080",
+			"AbstractConnection",
+			"AMPQChann",
+			"AMQPChannel",
+			"MiscHelper",
+			"AMQPProtocolException",
+			"throw new Exception",
+			"throws new Exception",
+			"AMQPExceptionInterface",
+			"Wait091"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\\\\\\\",
+			"\\\\",
+			"\\\\\\\\",
+			"",
+			"\\\\n",
+			"\\\\\\\\",
+			"\\\\",
+			"cssClass:",
+			"PhpAmqpLib_Wire_GenericContent",
+			"PhpAmqpLib_Wire_Constants091",
+			"PhpAmqpLib_Wire_Constants080",
+			"PhpAmqpLib_Exception_AMQPProtocolConnectionException",
+			"PhpAmqpLib_Connection_AMQPSocketConnection",
+			"PhpAmqpLib_Connection_AMQPLazyConnection",
+			"PhpAmqpLib_Connection_AMQPConnection",
+			"PhpAmqpLib_Helper_Protocol_MethodMap091",
+			"PhpAmqpLib_Helper_Protocol_Protocol091",
+			"PhpAmqpLib_Exception_AMQPProtocolChannelException",
+			"PhpAmqpLib_Message_AMQPMessage",
+			"PhpAmqpLib_Helper_Protocol_MethodMap080",
+			"PhpAmqpLib_Helper_Protocol_Wait080",
+			"PhpAmqpLib_Helper_Protocol_Protocol080",
+			"PhpAmqpLib_Channel_AMQPChannel",
+			"PhpAmqpLib_Helper_MiscHelper",
+			"PhpAmqpLib_Exception_AMQPProtocolException",
+			"PhpAmqpLib_Exception_AMQPExceptionInterface",
+			"PhpAmqpLib_Helper_Protocol_Wait091",
+			"PhpAmqpLib_Helper_Protocol",
+			"PhpAmqpLib_Wire_AMQPWriter",
+			"PhpAmqpLib_Wire_AMQPReader",
+			"PhpAmqpLib_Exception_AMQPOutOfBoundsException",
+			"PhpAmqpLib_Wire_AMQPDecimal",
+			"PhpAmqpLib_Exception_AMQPTimeoutException",
+			"PhpAmqpLib_Exception_AMQPRuntimeException",
+			"PhpAmqpLib_Wire_IO_StreamIO",
+			"PhpAmqpLib_Wire_IO_AbstractIO",
+			"PhpAmqpLib_Wire_IO_SocketIO",
+			"PhpAmqpLib_Connection_AMQPSSLConnection",
+			"PhpAmqpLib_Connection_AMQPStreamConnection",
+			"PhpAmqpLib_Channel_AbstractChannel",
+			"Time.now()",
+			"updated_at",
+			"'",
+			".it/300x230",
+			"\\.it/300x230",
+			"//setNeedsUpdate",
+			"mine",
+			"yellow"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 12,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "puppet/manifests/site.pp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Puppet/Syntaxes/Puppet.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "bootstrap.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "puppet/manifests/passenger.pp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								183
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Puppet/Syntaxes/Puppet.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "puppet/modules/users/manifests/admin.pp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Puppet/Syntaxes/Puppet.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "puppet/manifests/environment.pp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Puppet/Syntaxes/Puppet.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "config/initializers/session_store.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/models/user.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								413,
+								413
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Applications/MAMP/htdocs/skill_web/app/models/user_alias.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/models/user_alias.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "test/models/user_test.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "db/migrate/20130816222534_create_users.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "db/migrate/20130816224846_create_resource_profile.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								873,
+								873
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "db/migrate/20130816230226_create_employers.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								907,
+								907
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"project": "mac.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"migremplo",
+				"sagepoint-portal/db/migrate/20130816230226_create_employers.rb"
+			],
+			[
+				"creuserali",
+				"sagepoint-portal/db/migrate/20130816225811_create_user_alias.rb"
+			],
+			[
+				"resourcepro",
+				"sagepoint-portal/db/migrate/20130816224846_create_resource_profile.rb"
+			],
+			[
+				"databas",
+				"sagepoint-portal/config/database.yml"
+			],
+			[
+				"createuser",
+				"sagepoint-portal/db/migrate/20130816222534_create_users.rb"
+			],
+			[
+				"createuserta",
+				"sagepoint-portal/db/migrate/20130816222354_create_user_table.rb"
+			],
+			[
+				"user_tes",
+				"sagepoint-portal/test/models/user_test.rb"
+			],
+			[
+				"database",
+				"sagepoint-portal/config/database.yml"
+			],
+			[
+				"useralias",
+				"sagepoint-portal/app/models/user_alias.rb"
+			],
+			[
+				"userali",
+				"skill_web/app/models/user_alias.rb"
+			],
+			[
+				"gemfi",
+				"sagepoint-portal/Gemfile"
+			],
+			[
+				"user.r",
+				"app/models/user.rb"
+			],
+			[
+				"deviseuser",
+				"app/models/devise_user.rb"
+			],
+			[
+				"usertode",
+				"db/migrate/20130814224908_users_to_devise.rb"
+			],
+			[
+				"configroute",
+				"config/routes.rb"
+			],
+			[
+				"prodrb",
+				"config/environments/production.rb"
+			],
+			[
+				"devel.rb",
+				"config/environments/development.rb"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"bundle",
+				"bin/bundle"
+			],
+			[
+				"configinisess",
+				"config/initializers/session_store.rb"
+			],
+			[
+				"en",
+				"puppet/manifests/environment.pp"
+			],
+			[
+				"envi",
+				"config/environment.rb"
+			],
+			[
+				"railsapp",
+				"puppet/modules/railsapp/README.md"
+			],
+			[
+				"rvmubupost",
+				"puppet/modules/rvm/manifests/passenger/apache/ubuntu/post.pp"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"sesss",
+				"config/initializers/session_store.rb"
+			],
+			[
+				"sess",
+				"config/initializers/session_store.rb"
+			],
+			[
+				"secre",
+				"config/initializers/secret_token.rb"
+			],
+			[
+				"vagra",
+				"Vagrantfile"
+			],
+			[
+				"order",
+				"app/code/local/Mage/Sales/Model/Order.php"
+			],
+			[
+				"admindashjs",
+				"assets/js/sw/admin/dashboard/main.js"
+			],
+			[
+				"admi",
+				"app/controllers/admin_controller.rb"
+			],
+			[
+				"checkoutflowrecss",
+				"skin/frontend/enterprise/warby/css/checkout_flow_redesign.css"
+			],
+			[
+				"onepagereview",
+				"app/design/frontend/base/default/template/checkout/onepage/review.phtml"
+			],
+			[
+				"checkout",
+				"js/warby/checkout.js"
+			],
+			[
+				"dbconfig",
+				"app/design/frontend/base/default/template/catalog/product/view/type/configurable.phtml"
+			],
+			[
+				"projehtml",
+				"app/views/layouts/projects.rhtml"
+			],
+			[
+				"ep.html",
+				"app/views/layouts/ep.rhtml"
+			],
+			[
+				"manahtml",
+				"app/views/layouts/manage.rhtml"
+			],
+			[
+				"adminhtm",
+				"app/views/layouts/admin.rhtml"
+			],
+			[
+				"ephtml",
+				"app/views/layouts/ep.rhtml"
+			],
+			[
+				"admhtml",
+				"app/views/layouts/admin.rhtml"
+			],
+			[
+				"exhtml",
+				"app/views/layouts/ex.rhtml"
+			],
+			[
+				"admindash",
+				"app/views/admin/dashboard.rhtml"
+			],
+			[
+				"addashmain",
+				"assets/js/sw/admin/dashboard/main.js"
+			],
+			[
+				"_useredi",
+				"app/views/admin/_user_edit.html.erb"
+			],
+			[
+				"localwarbyrabbi",
+				"app/code/local/Warby/Mqmodule/Model/Rabbitlistener.php"
+			],
+			[
+				"plusless",
+				"assets/less/plugins.less"
+			],
+			[
+				"lessplu",
+				"assets/less/plugins.less"
+			],
+			[
+				"_user_ed",
+				"app/views/admin/_user_edit.html.erb"
+			],
+			[
+				"_popup",
+				"app/views/partial/_task_edit_popup.html.erb"
+			],
+			[
+				"adminmain",
+				"public/js/sw/admin/dashboard/main.js"
+			],
+			[
+				"libs",
+				"assets/js/libs.js"
+			],
+			[
+				"admincon",
+				"app/controllers/admin_controller.rb"
+			],
+			[
+				"email",
+				"app/models/tracker_mailer.rb"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"ampqconn",
+				"lib/PhpAmqpLib/Connection/AMQPConnection.php"
+			],
+			[
+				"cron",
+				"cron.php"
+			],
+			[
+				"ampqsteam",
+				"lib/PhpAmqpLib/Connection/AMQPStreamConnection.php"
+			],
+			[
+				"local",
+				"app/etc/local.xml"
+			],
+			[
+				"cron.",
+				"cron.php"
+			],
+			[
+				"adminhtml",
+				"app/code/local/Warby/Mqmodule/etc/adminhtml.xml"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"mqmxml",
+				"app/etc/modules/Warby_Mqmodule.xml"
+			],
+			[
+				"appcodelowarbymq",
+				"app/code/local/Warby/Mqmodule/etc/adminhtml.xml"
+			],
+			[
+				"appcodelowarby",
+				"app/code/local/Warby/Payment/Model/Warbycc.php"
+			],
+			[
+				"_resourreq",
+				"app/views/partial/_resource_requests.html.erb"
+			],
+			[
+				"resourreques",
+				"app/views/manage/resource_requests.rhtml"
+			],
+			[
+				"pmresove",
+				"app/views/partial/_pm_res_overview.html.erb"
+			],
+			[
+				"resourover",
+				"app/views/manage/resource_overview.rhtml"
+			],
+			[
+				"mana",
+				"app/controllers/manage_controller.rb"
+			],
+			[
+				"resoursearrow",
+				"app/views/manage/_resource_search_row.html.erb"
+			],
+			[
+				"resource_sea",
+				"app/views/manage/resource_search.html.erb"
+			],
+			[
+				"users",
+				"test/fixtures/users.yml"
+			],
+			[
+				"users.rb",
+				"db/migrate/012_create_users.rb"
+			],
+			[
+				"_metr",
+				"app/views/admin/_metrics.html.erb"
+			],
+			[
+				"mert",
+				"app/models/metric.rb"
+			],
+			[
+				"localmodelor",
+				"app/code/local/Mage/Sales/Model/Order.php"
+			],
+			[
+				"prescription/orders",
+				"app/code/local/Warby/Prescription/Model/Mysql4/Orders.php"
+			],
+			[
+				"presorders",
+				"app/code/local/Warby/Prescription/Model/Orders.php"
+			],
+			[
+				"frenwartemhist",
+				"app/design/frontend/enterprise/warby/template/sales/order/history.phtml"
+			],
+			[
+				"designhisto",
+				"app/design/frontend/base/default/template/sales/order/history.phtml"
+			],
+			[
+				"localwarhisto",
+				"app/code/local/Warby/Sales/Block/Order/History.php"
+			],
+			[
+				"localwarbyorder",
+				"app/code/local/Warby/Prescription/Model/Orders.php"
+			],
+			[
+				"appcodelosalor",
+				"app/code/local/Mage/Sales/Model/Order.php"
+			],
+			[
+				"warbyorder.php",
+				"app/code/local/Warby/Hometryon/Block/Adminhtml/Hometryon/Edit/Tabs.php"
+			],
+			[
+				"localwarorder",
+				"app/code/local/Warby/Prescription/Model/Orders.php"
+			],
+			[
+				"empl",
+				"app/models/employer.rb"
+			],
+			[
+				"cus",
+				"assets/less/custom.less"
+			],
+			[
+				"admindashmain",
+				"assets/js/sw/admin/dashboard/main.js"
+			],
+			[
+				"metric",
+				"app/views/admin/_metrics.html.erb"
+			],
+			[
+				"active",
+				"vendor/rails/activerecord/lib/activerecord.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"metrics",
+				"db/migrate/20130728125000_insert_metrics_data.rb"
+			],
+			[
+				"app",
+				"app/scripts/app.js"
+			],
+			[
+				"main",
+				"app/styles/less/main.less"
+			],
+			[
+				"dirmet",
+				"app/scripts/directives/metric.js"
+			],
+			[
+				"metjs",
+				"app/scripts/controllers/metrics.js"
+			],
+			[
+				"docjs",
+				"/Users/jarad.delorenzo/code/hibbert/app/scripts/app.js"
+			],
+			[
+				"app.",
+				"app/scripts/app.js"
+			],
+			[
+				"preform",
+				"app/scripts/controllers/prescriptionForm.js"
+			],
+			[
+				"doct",
+				"app/scripts/controllers/doctor.js"
+			],
+			[
+				"_preform",
+				"app/partials/_prescriptionform.html"
+			],
+			[
+				"doc",
+				"app/views/doctor.html"
+			],
+			[
+				"prefor",
+				"app/scripts/controllers/prescriptionForm.js"
+			],
+			[
+				"conprefor",
+				"app/scripts/controllers/prescriptionForm.js"
+			],
+			[
+				"scr",
+				"app/views/script.html"
+			],
+			[
+				"preforh",
+				"app/partials/_prescriptionform.html"
+			],
+			[
+				"reima",
+				"app/scripts/controllers/prescriptionImage.js"
+			],
+			[
+				"dochtml",
+				"app/views/doctor.html"
+			],
+			[
+				"script",
+				"app/views/script.html"
+			],
+			[
+				"",
+				"app/scripts/controllers/doctor.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"preman",
+				"app/scripts/services/PrescriptionManipulation.js"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"stag",
+				"config/deploy/staging.rb"
+			],
+			[
+				"produ",
+				"config/deploy/production.rb"
+			],
+			[
+				"config/",
+				"config/deploy.rb"
+			],
+			[
+				"manip",
+				"app/scripts/services/PrescriptionManipulation.js"
+			],
+			[
+				"scrip",
+				"app/views/script.html"
+			],
+			[
+				"preima",
+				"app/scripts/controllers/prescriptionImage.js"
+			],
+			[
+				"scrhtml",
+				"app/views/script.html"
+			],
+			[
+				"pre",
+				"app/scripts/controllers/prescriptionImage.js"
+			],
+			[
+				"conpreima",
+				"app/scripts/controllers/prescriptionImage.js"
+			],
+			[
+				"script.js",
+				"app/scripts/controllers/script.js"
+			],
+			[
+				"side",
+				"app/scripts/controllers/sidebar.js"
+			],
+			[
+				"dirimage",
+				"app/scripts/directives/prescriptionimage.js"
+			],
+			[
+				"preim",
+				"app/scripts/controllers/prescriptionImage.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 980.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

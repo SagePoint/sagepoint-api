@@ -1,0 +1,16 @@
+## default .bashrc: Managed by Puppet
+
+
+# User specific aliases and functions
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias pp='puppet apply /vagrant/puppet/manifests/site.pp --modulepath=/vagrant/puppet/modules'
+
+export PATH=$PATH:/usr/local/bin
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
