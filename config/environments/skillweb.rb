@@ -1,6 +1,6 @@
 # This config is specifically for porting the old SkillWeb site to the new version incrementally.
 
-SagepointPortal::Application.configure do
+SagepointApi::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on

@@ -11,8 +11,9 @@
 # if you're sharing your code publicly.
 
 secret = ENV['SAGEPOINT_SECRET']
+Rails.logger.info("SECRET!!!: #{secret}")
 if secret.length < 30
   raise "Secret token cannot be loaded"
 else
-  SagepointPortal::Application.config.secret_key_base = secret
+  SagepointApi::Application.config.secret_key_base = secret
 end

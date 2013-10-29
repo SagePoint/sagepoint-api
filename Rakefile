@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-SagepointPortal::Application.load_tasks
+SagepointApi::Application.load_tasks
