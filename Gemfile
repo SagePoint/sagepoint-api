@@ -40,7 +40,7 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Authentication gem - now works with Rails 4! =D
 gem 'devise', '3.0.0.rc'
-gem 'warden', '1.2.3'
+gem 'dalli'
 
 # Use unicorn as the app server
 # gem 'unicorn'

@@ -20,13 +20,20 @@ SagepointApi::Application.routes.draw do
     root to: "devise/sessions#new"
   end
 
-  #resource :users
+  resource :users
+
+  devise_for :users
 
 	namespace :api do
     namespace :v1  do
       devise_for :users
+
+      controller :secure do
+        get 'secure/' => :index
+      end
     end
   end
+
 	# controller :sessions do
 	# 	get 'login' => :new
 	# 	post 'login' => :create

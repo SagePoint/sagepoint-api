@@ -254,7 +254,7 @@ ActiveRecord::Schema.define(version: 20131016230000) do
 
   create_table "reports", force: true do |t|
     t.string   "title"
-    t.string   "parameter_list", limit: 63000
+    t.string   "parameter_list"
     t.integer  "report_type_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -446,7 +446,7 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.string "skill_desc"
   end
 
-  add_index "skills", ["skill_desc"], name: "skill_desc", type: :fulltext
+  add_index "skills", ["skill_desc"], name: "skill_desc"
 
   create_table "survey_profiles", force: true do |t|
     t.string  "survey_version"

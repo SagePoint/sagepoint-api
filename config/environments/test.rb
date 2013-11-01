@@ -33,4 +33,6 @@ SagepointApi::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+
+  config.cache_store = :mem_cache_store, 'localhost:11211', {:namespace => 'SAGEPOINT-API'}
 end
