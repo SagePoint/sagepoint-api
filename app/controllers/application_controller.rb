@@ -4,11 +4,16 @@ class ApplicationController < ActionController::Base
     protect_from_forgery with: :reset_session
     respond_to :json
 
-	before_filter :set_access_control_headers
+  #TODO
+  #REFACTOR: extract method
+  before_filter :set_access_control_headers
 
-	def set_access_control_headers
-		response.headers['Access-Control-Allow-Origin'] = '*'
-		response.headers["Access-Control-Allow-Headers"] = "Content-Type, X-Requested-With"
-		response.headers['Access-Control-Request-Method'] = 'GET, PUT, POST, DELETE, OPTIONS'
-	end
+  def set_access_control_headers
+    headers['Access-Control-Allow-Origin'] = '*'
+    headers['Access-Control-Allow-Methods'] = 'POST, PUT, DELETE, GET, OPTIONS'
+    headers['Access-Control-Request-Method'] = '*'
+    headers['Access-Control-Allow-Headers'] = 'Origin, X-Requested-With, Content-Type, Accept, Authorization'
+  end
+  #REFACTOR: end
+
 end

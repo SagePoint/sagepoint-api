@@ -14,7 +14,7 @@ development:
   database: SagePoint_development
   pool: 5
   username: root
-  password: root
+  password: tr00
   port: 3306
   host: 127.0.0.1
 
@@ -27,7 +27,7 @@ test:
   database: SagePoint_test
   pool: 5
   username: root
-  password: root
+  password: tr00
   port: 3306
   host: 127.0.0.1
 
@@ -37,6 +37,5 @@ production:
   database: SagePoint_prod
   pool: 5
   username: root
-  password: root
-  port: 3306
-  host: 127.0.0.1
+  password: tr00
+  socket: /var/run/mysqld/mysqld.sock

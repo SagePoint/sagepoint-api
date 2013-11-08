@@ -1,6 +1,6 @@
 class Api::V1::PasswordsController < Devise::PasswordsController
 
-	prepend_before_filter :require_no_authentication, :only => [:create]
+  prepend_before_filter :require_no_authentication, :only => [:create]
   skip_before_filter :verify_authenticity_token #, :if => Proc.new { |c| c.request.format == 'application/json' }
   before_filter :validate_auth_token, :except => :create
   include Devise::Controllers::Helpers
@@ -12,9 +12,10 @@ class Api::V1::PasswordsController < Devise::PasswordsController
   before_filter :set_access_control_headers
 
   def set_access_control_headers
-  	response.headers['Access-Control-Allow-Origin'] = '*'
-  	response.headers["Access-Control-Allow-Headers"] = "Content-Type, X-Requested-With"
-  	response.headers['Access-Control-Request-Method'] = 'GET, PUT, POST, DELETE, OPTIONS'
+    headers['Access-Control-Allow-Origin'] = '*'
+    headers['Access-Control-Allow-Methods'] = 'POST, PUT, DELETE, GET, OPTIONS'
+    headers['Access-Control-Request-Method'] = '*'
+    headers['Access-Control-Allow-Headers'] = 'Origin, X-Requested-With, Content-Type, Accept, Authorization'
   end
   #REFACTOR: end
 
