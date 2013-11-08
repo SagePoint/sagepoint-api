@@ -6,6 +6,16 @@ class Api::V1::SessionsController < Devise::SessionsController
   include ApiHelper
   respond_to :json
 
+  #TODO
+  #REFACTOR: extract method
+  after_filter :set_access_control_headers
+
+  def set_access_control_headers
+    headers['Access-Control-Allow-Origin'] = '*'
+    headers['Access-Control-Request-Method'] = '*'
+  end
+  #REFACTOR: end
+
   def create
     resource = User.find_for_database_authentication(:email => params[:email])
     return failure unless resource
