@@ -43,6 +43,8 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'devise', '3.0.0.rc'
 gem 'dalli'
 
+gem 'rack-cors', :require => 'rack/cors'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 

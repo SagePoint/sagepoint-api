@@ -37,6 +37,7 @@ class Api::V1::SessionsController < Devise::SessionsController
   end
 
   def options
+  	Rails.logger.info("options block")
   	headers['Access-Control-Allow-Origin'] = "*"
   	headers['Access-Control-Allow-Methods'] = 'GET, POST, PUT, OPTIONS'
   	headers['Access-Control-Max-Age'] = '100'

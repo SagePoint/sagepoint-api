@@ -7,19 +7,6 @@ class Api::V1::PasswordsController < Devise::PasswordsController
   include ApiHelper
   respond_to :json
 
-  #TODO
-  #REFACTOR: extract method
-  after_filter :set_access_control_headers
-
-  def set_access_control_headers
-	Rails.logger.info("SETTING HEADERS")
-    headers['Access-Control-Allow-Origin'] = '*'
-    headers['Access-Control-Allow-Methods'] = 'POST, GET, OPTIONS'
-    headers['Access-Control-Request-Method'] = '*'
-    headers['Access-Control-Allow-Headers'] = 'origin, x-requested-with, content-type, accept, authorization'
-  end
-  #REFACTOR: end
-
   def create
 	Rails.logger.info("hihihi")
   	resource = User.find_by_email(params[:email])
