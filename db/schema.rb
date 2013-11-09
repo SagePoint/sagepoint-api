@@ -170,12 +170,12 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.integer  "user_id"
     t.string   "email"
     t.string   "source_ip"
-    t.string   "ua_hash",        limit: 32
-    t.string   "ua_full",        limit: 512
+    t.string   "ua_hash"
     t.boolean  "was_successful"
-    t.boolean  "was_tsl",                    default: false
+    t.boolean  "was_tsl",        default: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "ua_full"
   end
 
   create_table "logins", force: true do |t|
@@ -421,7 +421,6 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.datetime "last_used_time"
   end
 
-  add_index "skill_ratings", ["skill_id", "val"], name: "skill_rating_and_skill_id", using: :btree
   add_index "skill_ratings", ["skill_id"], name: "index_skill_ratings_on_skill_id", using: :btree
 
   create_table "skill_requirements", force: true do |t|
@@ -443,7 +442,10 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.datetime "updated_at"
   end
 
-  add_index "skill_similars", ["skill_id", "similarity"], name: "skill_similarity_and_skill_id", using: :btree
+  add_index "skill_similars", ["similar_skill_id", "similarity"], name: "index_skill_similars_on_similar_skill_id_and_similarity", using: :btree
+  add_index "skill_similars", ["similar_skill_id"], name: "index_skill_similars_on_similar_skill_id", using: :btree
+  add_index "skill_similars", ["similarity"], name: "index_skill_similars_on_similarity", using: :btree
+  add_index "skill_similars", ["skill_id"], name: "index_skill_similars_on_skill_id", using: :btree
 
   create_table "skill_suggestions", force: true do |t|
     t.integer  "user_id",     null: false
@@ -592,6 +594,7 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.datetime "last_report_update"
     t.string   "report_seq"
     t.boolean  "is_enabled",             default: true
+    t.string   "tos_accepted"
     t.string   "encrypted_password",     default: "",   null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
@@ -604,7 +607,6 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.string   "authentication_token"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "tos_accepted"
   end
 
   add_index "users", ["authentication_token"], name: "index_users_on_authentication_token", unique: true, using: :btree

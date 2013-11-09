@@ -15,8 +15,9 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 #gem 'coffee-rails', '~> 4.0.0'
 
+gem 'execjs'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -41,6 +42,8 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # Authentication gem - now works with Rails 4! =D
 gem 'devise', '3.0.0.rc'
 gem 'dalli'
+
+gem 'rack-cors', :require => 'rack/cors'
 
 # Use unicorn as the app server
 # gem 'unicorn'
