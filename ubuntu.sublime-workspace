@@ -1,0 +1,936 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"res",
+				"resource_profile"
+			],
+			[
+				"slat",
+				"slate-dark"
+			],
+			[
+				"slate-",
+				"slate-light"
+			],
+			[
+				"add",
+				"addresses"
+			],
+			[
+				"for",
+				"force_ajax"
+			],
+			[
+				"empl",
+				"employer_id"
+			],
+			[
+				"inpu",
+				"input-xlarge"
+			],
+			[
+				"curr",
+				"currency_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/environments/development.rb",
+			"settings":
+			{
+				"buffer_size": 1425,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/etc/apache2/sites-available/sagepoint-portal.conf",
+			"settings":
+			{
+				"buffer_size": 296,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/api/v1/passwords_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1196,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 117.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"setapa",
+				"Set Syntax: Apache Conf"
+			],
+			[
+				"setapac",
+				"Set Syntax: Apache Conf"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"thumb",
+				"Snippet: Bootstrap thumbnails"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"hori",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"gu",
+				"Grunt"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"insert",
+				"Bracketeer: Insert square brackets"
+			],
+			[
+				"brack",
+				"Bracketeer: Insert curly brackets"
+			],
+			[
+				"remo",
+				"BracketHighlighter: Remove Brackets"
+			],
+			[
+				"bra",
+				"Bracketeer: Indent Text"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) ",
+			"index",
+			"grunt",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/etc/apache2/conf-available/passenger.conf",
+		"/home/delorenj/code/skill_web/app/models/user.rb",
+		"/home/delorenj/code/skill_web/app/models/metric.rb",
+		"/home/delorenj/code/skill_web/app/models/login_event.rb",
+		"/etc/hosts",
+		"/etc/apache2/conf.d/passenger.conf",
+		"/home/delorenj/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/delorenj/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/etc/apache2/sites-available/sagepoint-legacy",
+		"/home/delorenj/code/skill_web/assets/js/sw/skillweb.js",
+		"/home/delorenj/code/skill_web/db/migrate/20130128020000_create_preferred_skills.rb",
+		"/home/delorenj/code/skill_web/db/migrate/20130728123230_add_metrics_table.rb",
+		"/home/delorenj/code/skill_web/db/migrate/007_create_addresses.rb",
+		"/home/delorenj/code/skill_web/db/migrate/20130824191834_create_users_addresses_table.rb",
+		"/home/delorenj/code/skill_web/db/migrate/20130824200431_remove_primary_key_from_users_addresses.rb",
+		"/home/delorenj/code/hibbert/app/components/angular-bootstrap/ui-bootstrap-tpls.js",
+		"/home/delorenj/code/hibbert/app/components/angular-bootstrap/tpls-diff-temp.js",
+		"/home/delorenj/code/hibbert/dist/components/angular-bootstrap/ui-bootstrap-tpls.js",
+		"/home/delorenj/code/hibbert/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/formidable/test/tools/base64.html",
+		"/home/delorenj/code/hibbert/app/components/angular-bootstrap/ui-bootstrap.js",
+		"/home/delorenj/code/hibbert/app/styles/main.css",
+		"/home/delorenj/code/hibbert/app/scripts/controllers/prescriptionForm.js",
+		"/home/delorenj/code/hibbert/bower.json",
+		"/home/delorenj/code/hibbert/.bowerrc",
+		"/home/delorenj/code/sagepoint-public/dist/views/learn.html",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/address_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_partner.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/public/js/sw/skillweb.js",
+		"/Applications/MAMP/htdocs/skill_web/public/scripts/sagepoint.js",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/manage_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20130824200431_remove_primary_key_from_users_addresses.rb",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20130128020000_create_preferred_skills.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/models/address.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/models/user.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/admin_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20130824191834_create_users_addresses_table.rb",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20130824190646_add_type_column_to_address.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/ep.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/manage.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/admin.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/dashboard.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/skillweb.js",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/ep_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/dashboard_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/application_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/ob_step_1.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_user_edit.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/config/routes.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/res_overview.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/projects/_form.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_task_create.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_task_edit_popup.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_aob_step_5.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_aob_step_6.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_proj_table.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/ob_step_4.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_aob_step_1.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_aob_step_2.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/ob_step_2.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/public/javascripts/obw.js",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/_skill_pill.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/_get_skills.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/_allocate.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/ep/add_experience/main.js",
+		"/Applications/MAMP/htdocs/skill_web/app/views/tasks/_form.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_modal_template.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_aob_step_4.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_aob_step_3.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_skill_requirements.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_task_edit.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/account_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/ep/ob/main.js",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/clearance_list.js",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/add_experience.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_hr.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_user_list.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_task_matches.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_search_results.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/public/javascripts/application.js",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/cert_list.js",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/manage/task_overview/main.js",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/manage/edit_task/main.js",
+		"/Applications/MAMP/htdocs/skill_web/public/js/sw/admin/dashboard/main.js",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/admin/dashboard/main.js",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_user_line.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/hr.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/manage/_task_overview.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/ep/task_edit_popup/main.js",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20090929212929_change_reports_association.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_cert_requirements.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_clearance_requirements.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/public/js/sw/ep/add_experience/main.js",
+		"/Applications/MAMP/htdocs/skill_web/app/views/manage/_resource_search_row.html.erb",
+		"/Users/jarad.delorenzo/Library/Application Support/Sublime Text 3/Packages/User/Default ().sublime-keymap",
+		"/Users/jarad.delorenzo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"~/code/skill_web",
+			"~/code/sagepoint-public",
+			"~/code/hibbert",
+			"~/code/hibbert/app/scripts",
+			"~/code/hibbert",
+			"~/code/sagepoint-public",
+			"/Applications/MAMP/htdocs/skill_web",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"skill_web",
+			"trim",
+			"END SKILL-LIST",
+			"SkillWeb.SkillList.addRemoveSkillAction\\(jQuery\\(this\\)\\)",
+			"skill_name",
+			"master_skill_list",
+			"submitSkillSearch",
+			"just_results",
+			"Search",
+			"userAgent",
+			"content-header",
+			"tabs",
+			"dialogModule",
+			"dialog",
+			"dialogModule",
+			"dialog",
+			"dalog",
+			"dialogProvider",
+			"$dialogProvider",
+			"dialog",
+			"coming",
+			"tabs",
+			"tab",
+			"cx1",
+			"cx1_original",
+			"dataset",
+			"span4",
+			"0.5.0",
+			"latest",
+			"dialog",
+			"$dialog",
+			"');",
+			"downloadFile('",
+			"click",
+			"button",
+			"click",
+			"bottom-request",
+			"button",
+			"cssStyle",
+			"notifybar()",
+			"alert",
+			"cssStyle",
+			"notifybar()",
+			"notifybar\\(\\)",
+			"addresses",
+			"mine",
+			"hr_admin",
+			"skillweb.js",
+			"address_address",
+			"helper.*state",
+			"helper",
+			"state",
+			"states",
+			"us_states",
+			"state",
+			"state_helper",
+			"State",
+			"home_location",
+			"us_states",
+			" offset0",
+			" span16",
+			"home_location",
+			"res_",
+			"State",
+			"state",
+			"select",
+			"city",
+			"2",
+			"placeholder=\"i.e. Boston Office\" ",
+			"1",
+			"description",
+			"Description",
+			"description",
+			"address_description",
+			"create a new project",
+			"popup_new_project",
+			"Add a new task",
+			"add a new task",
+			"Continue &#187;",
+			"value=\nvalue=\"Continue\"",
+			"Continue",
+			"Coninute",
+			"continue",
+			"Are you sure you want to delete this skill",
+			"remove_skill_from",
+			"fade",
+			"skillList",
+			"Back to summary",
+			"resource_overview",
+			"get_currencies",
+			"select_tag",
+			"selected",
+			"TITS",
+			"is_locked",
+			"star",
+			"def warning",
+			"warning",
+			"set_skill",
+			"    var getField = function(param) {\n        if(typeof param.sel === 'undefined') {\n            return $(\"#\" + param.id);\n        } else {\n            return $(param.sel);\n        }\n    }\n",
+			"addTaskModalSubmit",
+			"main.js",
+			"addTaskModalSubmit",
+			"tos_accepted",
+			"Remove this requirement from the list",
+			"cert_req_row_hp",
+			"CertList",
+			"cert",
+			"Weight",
+			"replace",
+			"time",
+			"replaceText",
+			"match_status",
+			"addTaskModal",
+			"alert_match",
+			"addTaskModalSubmit",
+			"alert_MATCH",
+			"Not run for",
+			"Not run for current",
+			"Compare",
+			"Titttt",
+			"form_tag",
+			"usereditholder",
+			"signupform",
+			"validateNewUser",
+			"onsubmit",
+			"admin/new_user",
+			"resource_profile_first_name",
+			"userProfileModalSubmit"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/environments/development.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								690,
+								690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/etc/apache2/sites-available/sagepoint-portal.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ApacheConf.tmLanguage/ApacheConf.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/api/v1/passwords_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								403,
+								403
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "ubuntu.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"envde",
+				"config/environments/development.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"logieve",
+				"app/models/login_event.rb"
+			],
+			[
+				"metric",
+				"app/models/metric.rb"
+			],
+			[
+				"configd",
+				"config/database.yml"
+			],
+			[
+				"initializers",
+				"config/initializers/secret_token.rb"
+			],
+			[
+				"controlskillweb",
+				"app/controllers/skill_web_controller.rb"
+			],
+			[
+				"sagepointj",
+				"public/scripts/sagepoint.js"
+			],
+			[
+				"skillwe",
+				"assets/js/sw/skillweb.js"
+			],
+			[
+				"epallo",
+				"app/views/ep/_allocate.rhtml"
+			],
+			[
+				"obw",
+				"public/javascripts/obw.js"
+			],
+			[
+				"_allo",
+				"app/views/ep/_allocate.rhtml"
+			],
+			[
+				"obmain",
+				"assets/js/sw/ep/ob/main.js"
+			],
+			[
+				"usersaddres",
+				"db/migrate/20130824200431_remove_primary_key_from_users_addresses.rb"
+			],
+			[
+				"usersaddress",
+				"db/migrate/20130824191834_create_users_addresses_table.rb"
+			],
+			[
+				"migraaddre",
+				"db/migrate/007_create_addresses.rb"
+			],
+			[
+				"migrmetri",
+				"db/migrate/20130728123230_add_metrics_table.rb"
+			],
+			[
+				"migrateprefer",
+				"db/migrate/20130128020000_create_preferred_skills.rb"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"ui-bootstratpls",
+				"app/components/angular-bootstrap/ui-bootstrap-tpls.js"
+			],
+			[
+				"ui-bootstrap-tpls",
+				"dist/components/angular-bootstrap/ui-bootstrap-tpls.js"
+			],
+			[
+				"tabs.html",
+				"node_modules/grunt-contrib-connect/node_modules/connect/node_modules/formidable/test/tools/base64.html"
+			],
+			[
+				"tpls",
+				"app/components/angular-bootstrap/ui-bootstrap-tpls.js"
+			],
+			[
+				"ui-boot",
+				"app/components/angular-bootstrap/ui-bootstrap.js"
+			],
+			[
+				"",
+				".bowerrc"
+			],
+			[
+				"learnjs",
+				"app/scripts/controllers/learn.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"scss",
+				"app/styles/common.scss"
+			],
+			[
+				"libs",
+				"assets/js/libs.js"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"locatio",
+				"assets/js/sw/location.js"
+			],
+			[
+				"skilwebjs",
+				"public/js/sw/skillweb.js"
+			],
+			[
+				"sagejs",
+				"public/scripts/sagepoint.js"
+			],
+			[
+				"address",
+				"app/models/address.rb"
+			],
+			[
+				"mana",
+				"app/controllers/manage_controller.rb"
+			],
+			[
+				"prefskil",
+				"db/migrate/20130128020000_create_preferred_skills.rb"
+			],
+			[
+				"migraremove",
+				"db/migrate/20130824200431_remove_primary_key_from_users_addresses.rb"
+			],
+			[
+				"add",
+				"app/models/address.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"user.",
+				"app/models/user.rb"
+			],
+			[
+				"creauserad",
+				"db/migrate/20130824191834_create_users_addresses_table.rb"
+			],
+			[
+				"createprefer",
+				"db/migrate/20130128020000_create_preferred_skills.rb"
+			],
+			[
+				"columntoadd",
+				"db/migrate/20130824190646_add_type_column_to_address.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"dashtml",
+				"app/views/layouts/dashboard.rhtml"
+			],
+			[
+				"sagepointjs",
+				"public/scripts/sagepoint.js"
+			],
+			[
+				"application",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"dash",
+				"app/controllers/dashboard_controller.rb"
+			],
+			[
+				"res_ov",
+				"app/views/ep/res_overview.rhtml"
+			],
+			[
+				"_form",
+				"app/views/projects/_form.rhtml"
+			],
+			[
+				"modalte",
+				"app/views/partial/_modal_template.erb"
+			],
+			[
+				"sage",
+				"public/scripts/sagepoint.js"
+			],
+			[
+				"dashlistmain",
+				"assets/js/sw/dashboard/list/main.js"
+			],
+			[
+				"projcon",
+				"app/controllers/projects_controller.rb"
+			],
+			[
+				"_taskcrea",
+				"app/views/partial/_task_create.html.erb"
+			],
+			[
+				"tasedipop",
+				"app/views/partial/_task_edit_popup.html.erb"
+			],
+			[
+				"step",
+				"app/views/admin/_aob_step_1.html.erb"
+			],
+			[
+				"step2",
+				"app/views/admin/_aob_step_2.html.erb"
+			],
+			[
+				"obstep",
+				"app/views/ep/ob_step_2.rhtml"
+			],
+			[
+				"epob.",
+				"app/views/ep/ob_step_1.rhtml"
+			],
+			[
+				"obw.js",
+				"public/javascripts/obw.js"
+			],
+			[
+				"epskillpill",
+				"app/views/ep/_skill_pill.html.erb"
+			],
+			[
+				"_gets",
+				"app/views/ep/_get_skills.html.erb"
+			],
+			[
+				"epaddemain",
+				"assets/js/sw/ep/add_experience/main.js"
+			],
+			[
+				"manage",
+				"app/controllers/manage_controller.rb"
+			],
+			[
+				"task_over",
+				"app/views/manage/_task_overview.html.erb"
+			],
+			[
+				"_skillre",
+				"app/views/partial/_skill_requirements.html.erb"
+			],
+			[
+				"_taskover",
+				"app/views/manage/_task_overview.html.erb"
+			],
+			[
+				"accou",
+				"app/controllers/account_controller.rb"
+			],
+			[
+				"applicati",
+				"public/javascripts/application.js"
+			],
+			[
+				"epobmain",
+				"assets/js/sw/ep/ob/main.js"
+			],
+			[
+				"epmain",
+				"assets/js/sw/ep/task_edit_popup/main.js"
+			],
+			[
+				"skil",
+				"assets/js/sw/skillweb.js"
+			],
+			[
+				"epobma",
+				"assets/js/sw/ep/ob/main.js"
+			],
+			[
+				"migra",
+				"db/migrate/20090929212929_change_reports_association.rb"
+			],
+			[
+				"clearlist",
+				"assets/js/sw/clearance_list.js"
+			],
+			[
+				"add_ex",
+				"app/views/ep/add_experience.rhtml"
+			],
+			[
+				"userlist",
+				"app/views/admin/_user_list.html.erb"
+			],
+			[
+				"_userlin",
+				"app/views/admin/_user_line.html.erb"
+			],
+			[
+				"skillwejs",
+				"assets/js/sw/skillweb.js"
+			],
+			[
+				"admidasmai",
+				"assets/js/sw/admin/dashboard/main.js"
+			],
+			[
+				"_user",
+				"app/views/admin/_user_line.html.erb"
+			],
+			[
+				"modtempl",
+				"app/views/partial/_modal_template.erb"
+			],
+			[
+				"app",
+				"app/scripts/app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 980.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
