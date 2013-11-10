@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"reset_pass",
+				"reset_password_by_token"
+			],
+			[
+				"resour",
+				"resource_params"
+			],
+			[
 				"res",
 				"resource_profile"
 			],
@@ -48,18 +56,66 @@
 			}
 		},
 		{
-			"file": "/etc/apache2/sites-available/sagepoint-portal.conf",
+			"file": "app/controllers/api/v1/passwords_controller.rb",
 			"settings":
 			{
-				"buffer_size": 296,
+				"buffer_size": 2546,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/api/v1/passwords_controller.rb",
+			"file": "config/application.rb",
 			"settings":
 			{
-				"buffer_size": 1196,
+				"buffer_size": 1254,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/initializers/recoverable.rb",
+			"settings":
+			{
+				"buffer_size": 5179,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/devise/mailer/reset_password_instructions.html.erb",
+			"settings":
+			{
+				"buffer_size": 396,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/initializers/devise.rb",
+			"settings":
+			{
+				"buffer_size": 12195,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/production.rb",
+			"settings":
+			{
+				"buffer_size": 3641,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/api/v1/sessions_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1633,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1164,
 				"line_ending": "Unix"
 			}
 		}
@@ -167,6 +223,12 @@
 	},
 	"file_history":
 	[
+		"/home/delorenj/code/sagepoint-api/lib/recoverable.rb",
+		"/home/delorenj/code/sagepoint-api/config/initializers/recoverable.rb",
+		"/home/delorenj/code/sagepoint-api/app/models/user.rb",
+		"/home/delorenj/code/sagepoint-api/Gemfile",
+		"/home/delorenj/code/sagepoint-api/config/initializers/secret_token.rb",
+		"/etc/apache2/sites-available/sagepoint-portal.conf",
 		"/etc/apache2/conf-available/passenger.conf",
 		"/home/delorenj/code/skill_web/app/models/user.rb",
 		"/home/delorenj/code/skill_web/app/models/metric.rb",
@@ -272,6 +334,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/home/delorenj/code/sagepoint-api",
 			"~/code/skill_web",
 			"~/code/sagepoint-public",
 			"~/code/hibbert",
@@ -287,6 +350,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"mailer",
+			"insecu",
+			"mailer",
+			"secret_key",
+			"send_reset_password_instructions",
+			"reset_password_instructions",
 			"skill_web",
 			"trim",
 			"END SKILL-LIST",
@@ -408,13 +477,7 @@
 			"Compare",
 			"Titttt",
 			"form_tag",
-			"usereditholder",
-			"signupform",
-			"validateNewUser",
-			"onsubmit",
-			"admin/new_user",
-			"resource_profile_first_name",
-			"userProfileModalSubmit"
+			"usereditholder"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -448,8 +511,8 @@
 						"selection":
 						[
 							[
-								690,
-								690
+								624,
+								624
 							]
 						],
 						"settings":
@@ -466,25 +529,26 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/etc/apache2/sites-available/sagepoint-portal.conf",
+					"file": "app/controllers/api/v1/passwords_controller.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 296,
+						"buffer_size": 2546,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								120,
-								120
+								1758,
+								1758
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ApacheConf.tmLanguage/ApacheConf.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -494,19 +558,191 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/controllers/api/v1/passwords_controller.rb",
+					"file": "config/application.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1196,
+						"buffer_size": 1254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								403,
-								403
+								1155,
+								1155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/initializers/recoverable.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/devise/mailer/reset_password_instructions.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "config/initializers/devise.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2390,
+								2390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 55.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "config/environments/production.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/controllers/api/v1/sessions_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -567,12 +803,36 @@
 		"selected_items":
 		[
 			[
-				"envde",
-				"config/environments/development.rb"
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"session",
+				"app/controllers/api/v1/sessions_controller.rb"
+			],
+			[
+				"prod",
+				"config/environments/production.rb"
 			],
 			[
 				"user",
 				"app/models/user.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"devi",
+				"config/initializers/devise.rb"
+			],
+			[
+				"rese",
+				"app/views/devise/mailer/reset_password_instructions.html.erb"
+			],
+			[
+				"envde",
+				"config/environments/development.rb"
 			],
 			[
 				"logieve",
@@ -681,10 +941,6 @@
 			[
 				"libs",
 				"assets/js/libs.js"
-			],
-			[
-				"rout",
-				"config/routes.rb"
 			],
 			[
 				"locatio",
@@ -907,11 +1163,23 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"~/code/sagepoint-portal/ubuntu.sublime-project"
+			],
+			[
+				"portal",
+				"~/code/sagepoint-portal/ubuntu.sublime-project"
+			],
+			[
+				"por",
+				"~/code/sagepoint-api/ubuntu.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
