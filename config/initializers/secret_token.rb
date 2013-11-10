@@ -15,4 +15,5 @@ if secret.length < 30
   raise "Secret token cannot be loaded"
 else
   SagepointApi::Application.config.secret_key_base = secret
+  SagepointApi::Application.config.secret_key = secret
 end

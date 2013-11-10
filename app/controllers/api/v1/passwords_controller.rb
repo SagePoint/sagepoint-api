@@ -7,12 +7,18 @@ class Api::V1::PasswordsController < Devise::PasswordsController
   include ApiHelper
   respond_to :json
 
+  def update
+#      User.reset_password_by_token(:attributes => {:reset_password_token => params[:reset_password_token]})
+      reset_password_token = Devise.token_generator.digest(self, :reset_password_token, params[:reset_password_token])
+      Rails.logger.info("TOKEN: #{reset_password_token}")
+      return render json: {success: false, token: params[:reset_password_token], password: params[:password]}
+  end
+
   def create
-	Rails.logger.info("hihihi")
   	resource = User.find_by_email(params[:email])
   	return failure unless resource
 
-#  	resource.send_reset_password_instructions
+  	resource.send_reset_password_instructions
   	render :json=> {:success => true, :message => "Reset instructions sent to #{resource.email}"}
 
   end

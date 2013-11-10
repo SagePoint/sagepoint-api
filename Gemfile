@@ -40,7 +40,7 @@ gem 'protected_attributes'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Authentication gem - now works with Rails 4! =D
-gem 'devise', '3.0.0.rc'
+gem 'devise', '3.2.0'
 gem 'dalli'
 
 gem 'rack-cors', :require => 'rack/cors'
