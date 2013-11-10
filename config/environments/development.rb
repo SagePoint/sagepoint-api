@@ -13,9 +13,10 @@ SagepointApi::Application.configure do
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
 
-  config.action_mailer.default_url_options = { :host => 'sagepoint.com' }
-
-  # Don't care if the mailer can't send.
+  # Mailer stuff
+  config.action_mailer.default_url_options = { :host => 'v2.local.sagepointsoftware.com/#' }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
   config.action_mailer.raise_delivery_errors = false
 
   # Print deprecation notices to the Rails logger.

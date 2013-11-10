@@ -10,6 +10,7 @@ namespace :devise do
         # Assign a random password
         random_password = User.send(:generate_token, 'encrypted_password').slice(0, 8)
         record.password = random_password
+	puts "#{record.email} : #{random_password}"
         record.save
         # Send change notification (Ensure you have created #{model}Mailer e.g. UserMailer)
         model_mailer.password_reset(record, random_password).deliver
