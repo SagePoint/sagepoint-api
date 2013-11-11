@@ -7,7 +7,7 @@ Devise.setup do |config|
   config.mailer_sender = "mailer@sagepointsoftware.com"
 
   # Configure the class responsible to send e-mails.
-  # config.mailer = "Devise::Mailer"
+  config.mailer = 'Devise::Mailer'
 
   # ==> ORM configuration
   # Load and configure the ORM. Supports :active_record (default) and
@@ -42,6 +42,7 @@ Devise.setup do |config|
   # modifying a user and when used to authenticate or find a user. Default is :email.
   config.strip_whitespace_keys = [ :email ]
 
+  config.secret_key = "d9eb5171c512377f7f68b0de27b8c1121232341b52cdbc60d3083d4e895853218dcc5f589cafde048faec9aaaa2f864b9b5513ff9ce29bf9e5d58b0f234f8e3b"
   # Tell if authentication through request.params is enabled. True by default.
   # It can be set to an array that will enable params authentication only for the
   # given strategies, for example, `config.params_authenticatable = [:database]` will
