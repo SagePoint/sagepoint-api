@@ -4,8 +4,9 @@ class User < ActiveRecord::Base
   # :lockable, :timeoutable and :omniauthable
   include TokenAuthenticatable
   devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :trackable, :validatable
+         :recoverable, :rememberable, :trackable, :validatable, :token_authenticatable
 
+  before_save :ensure_authentication_token
   # has_one :resource_profile
   # has_one :user_alias
   # belongs_to :employer
