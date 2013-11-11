@@ -1,0 +1,26 @@
+diff --git a/app/controllers/api/v1/passwords_controller.rb b/app/controllers/api/v1/passwords_controller.rb
+index 2cde69f..7925ee4 100644
+--- a/app/controllers/api/v1/passwords_controller.rb
++++ b/app/controllers/api/v1/passwords_controller.rb
+@@ -8,7 +8,7 @@ class Api::V1::PasswordsController < Devise::PasswordsController
+   respond_to :json
+ 
+   def create
+-	Rails.logger.info("hihihi")
++	  Rails.logger.info("hihihi")
+   	resource = User.find_by_email(params[:email])
+   	return failure unless resource
+ 
+diff --git a/config/initializers/devise.rb b/config/initializers/devise.rb
+index 5cb21ea..67a3386 100644
+--- a/config/initializers/devise.rb
++++ b/config/initializers/devise.rb
+@@ -59,7 +59,7 @@ Devise.setup do |config|
+   config.http_authenticatable = false
+ 
+   # If http headers should be returned for AJAX requests. True by default.
+-  config.http_authenticatable_on_xhr = false
++  config.http_authenticatable_on_xhr = true
+ 
+   # The realm used in Http Basic Authentication. "Application" by default.
+   # config.http_authentication_realm = "Application"

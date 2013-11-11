@@ -23,7 +23,6 @@ class Api::V1::SessionsController < Devise::SessionsController
   	if resource.valid_password?(params[:password])
   		_log("Resource: #{resource}")
   		sign_in(:user, resource)
-  		resource.ensure_authentication_token!
   		render :json=> {:success => true, :token => resource.authentication_token}
   		return
   	end
@@ -37,7 +36,6 @@ class Api::V1::SessionsController < Devise::SessionsController
   end
 
   def options
-  	Rails.logger.info("options block")
   	headers['Access-Control-Allow-Origin'] = "*"
   	headers['Access-Control-Allow-Methods'] = 'GET, POST, PUT, OPTIONS'
   	headers['Access-Control-Max-Age'] = '100'

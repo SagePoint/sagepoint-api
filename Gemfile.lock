@@ -37,11 +37,12 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     dalli (2.6.4)
-    devise (3.0.0.rc)
+    devise (3.2.0)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
-      warden (~> 1.2.1)
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.0.2)
     hike (1.2.3)
@@ -129,7 +130,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt-ruby (~> 3.0.0)
   dalli
-  devise (= 3.0.0.rc)
+  devise (= 3.2.0)
   execjs
   jbuilder (~> 1.2)
   jquery-rails
