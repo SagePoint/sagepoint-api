@@ -63,10 +63,18 @@ SagepointApi::Application.configure do
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
-  config.action_mailer.default_url_options = { :host => 'portal.alpha.sagepointsoftware.com/#' }
+  config.action_mailer.default_url_options = { :host => 'http://portal.alpha.sagepointsoftware.com/#' }
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
-  # config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.smtp_settings = { 
+    :address => "mail.authsmtp.com",
+    :port => "25",
+    :domain => "sagepointsoftware.com",
+    :authentication => :plain,
+    :user_name => "ac39582",
+    :password => "nuxk9wndw"
+  }
+
+  #config.action_mailer.raise_delivery_errors = false
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found).
