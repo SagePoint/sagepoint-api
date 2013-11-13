@@ -22,10 +22,8 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.string  "description"
     t.integer "employer_id"
     t.string  "country"
-    t.boolean "enabled",                             default: true
-    t.boolean "is_admin",                            default: true
-    t.decimal "latitude",    precision: 9, scale: 6
-    t.decimal "longitude",   precision: 9, scale: 6
+    t.boolean "enabled",     default: true
+    t.boolean "is_admin",    default: true
   end
 
   create_table "billings", force: true do |t|
@@ -170,12 +168,12 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.integer  "user_id"
     t.string   "email"
     t.string   "source_ip"
-    t.string   "ua_hash"
+    t.string   "ua_hash",        limit: 32
+    t.string   "ua_full",        limit: 512
     t.boolean  "was_successful"
-    t.boolean  "was_tsl",        default: false
+    t.boolean  "was_tsl",                    default: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "ua_full"
   end
 
   create_table "logins", force: true do |t|
