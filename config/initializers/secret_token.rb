@@ -11,7 +11,7 @@
 # if you're sharing your code publicly.
 
 secret = ENV['SAGEPOINT_SECRET']
-if secret.length < 30
+if secret.nil? || secret.length < 30
   raise "Secret token cannot be loaded"
 else
   SagepointApi::Application.config.secret_key_base = secret
