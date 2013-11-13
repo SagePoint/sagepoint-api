@@ -26,6 +26,7 @@ en:
         invalid_token: 'Invalid authentication token'
       sessions:
         invalid_login: 'Login information is incorrect, please try again'
+        account_disabled: 'Your account is disabled. Please contact your administrator'
       passwords:
         invalid_account: 'Your email could not be found in the system'
       unauthorized:	'You must be logged in to do that'

@@ -21,7 +21,9 @@ class Api::V1::SessionsController < Devise::SessionsController
   	return failure unless resource
 
   	if resource.valid_password?(params[:password])
-  		_log("Resource: #{resource}")
+  		_log("Resource password correct: #{resource}")
+  		_log("Checking if resource is enabled...")
+  		return failure_disabled if not resource.is_enabled?
   		sign_in(:user, resource)
   		resource.ensure_authentication_token!
   		render :json=> {:success => true, :token => resource.authentication_token}
@@ -47,6 +49,10 @@ class Api::V1::SessionsController < Devise::SessionsController
 
   def failure
   	return render json: { success: false, errors: [t('api.v1.sessions.invalid_login')] }, :status => :unauthorized
+  end
+
+  def failure_disabled
+  	return render json: { success: false, errors: [t('api.v1.sessions.account_disabled')] }, :status => :unauthorized
   end
 
 end
