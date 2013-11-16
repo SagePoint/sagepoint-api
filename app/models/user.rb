@@ -7,6 +7,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   before_save :ensure_authentication_token!
+
   # has_one :resource_profile
   # has_one :user_alias
   # belongs_to :employer
@@ -22,7 +23,6 @@ class User < ActiveRecord::Base
   # has_many :educations
   # serialize :tos_accepted, Hash
   # attr_protected :id,:employer_id,:is_enabled
-
 
   # def valid_user(user_types)
   #   return false unless user_types

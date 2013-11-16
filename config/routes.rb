@@ -26,7 +26,11 @@ SagepointApi::Application.routes.draw do
 
 	namespace :api do
     namespace :v1  do
-      devise_for :users
+      devise_for :users, :controllers => {:registrations => 'api/v1/registrations'}
+
+      devise_scope :user do
+        patch "user/update_password", :to => "registrations#update_password", :as => "update_password"
+      end
 
       controller :secure do
         get 'secure/' => :index

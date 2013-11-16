@@ -17,6 +17,14 @@ module ApiHelper
 
 
 # API JSON Error Responses
+	def missing_email
+		return render json: { success: false, errors: [t('api.v1.token.missing_email')] }, :status => :unauthorized
+	end
+
+	def token_email_mismatch
+		return render json: { success: false, errors: [t('api.v1.token.token_email_mismatch')] }, :status => :unauthorized
+	end
+
 	def invalid_token
 		return render json: { success: false, errors: [t('api.v1.token.invalid_token')] }, :status => :unauthorized
 	end
@@ -33,8 +41,10 @@ module ApiHelper
 protected
 
 	def validate_auth_token
+		return missing_email unless params[:email]
 		resource = User.find_by_authentication_token(params[:auth_token])
 		return invalid_token if resource.nil?
+		return token_email_mismatch unless params[:email].eql?(resource.email)
 		_log("Auth token present and valid - signing in user")
 		sign_in(:user, resource)
 		return true
