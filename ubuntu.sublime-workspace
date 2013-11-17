@@ -59,7 +59,7 @@
 			"file": "app/controllers/api/v1/passwords_controller.rb",
 			"settings":
 			{
-				"buffer_size": 2546,
+				"buffer_size": 2460,
 				"line_ending": "Unix"
 			}
 		},
@@ -495,7 +495,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -533,15 +533,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2546,
+						"buffer_size": 2460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1758,
-								1758
+								1531,
+								1531
 							]
 						],
 						"settings":
@@ -598,8 +598,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1878,
+								1878
 							]
 						],
 						"settings":
@@ -665,7 +665,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 55.0,
+						"translation.y": 184.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -694,7 +694,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 228.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -803,16 +803,24 @@
 		"selected_items":
 		[
 			[
+				"devise",
+				"config/initializers/devise.rb"
+			],
+			[
+				"prod",
+				"config/environments/production.rb"
+			],
+			[
+				"recov",
+				"config/initializers/recoverable.rb"
+			],
+			[
 				"rout",
 				"config/routes.rb"
 			],
 			[
 				"session",
 				"app/controllers/api/v1/sessions_controller.rb"
-			],
-			[
-				"prod",
-				"config/environments/production.rb"
 			],
 			[
 				"user",
@@ -1168,7 +1176,7 @@
 		[
 			[
 				"",
-				"~/code/sagepoint-portal/ubuntu.sublime-project"
+				"~/code/skill_web/ubuntu.sublime-project"
 			],
 			[
 				"portal",

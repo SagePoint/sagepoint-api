@@ -1,5 +1,5 @@
 class Api::V1::RegistrationsController < Devise::RegistrationsController
-  prepend_before_filter :validate_auth_token
+  before_filter :validate_auth_token
   skip_before_filter :authenticate_scope!
 
   respond_to :json
@@ -78,10 +78,10 @@ class Api::V1::RegistrationsController < Devise::RegistrationsController
 
   def update_password
     _log("UPDATE_PASSWORD")
-    return failure('api.v1.registrations.missing_parameter') unless params[:user][:password] && params[:user][:password_confirmation]
-    return failure('api.v1.registrations.passwords_dont_match') unless params[:user][:password].eql?(params[:user][:password_confirmation])
+    return failure('api.v1.registrations.missing_parameter') unless params[:user] && params[:user][:password] && params[:user][:password_confirmation]
+    return failure('api.v1.registrations.passwords_dont_match') unless params[:user] && params[:user][:password].eql?(params[:user][:password_confirmation])
     resource = current_user
-    if resource.reset_password!(params[:user]) then
+    if resource.reset_password!(params[:user][:password], params[:user][:password_confirmation]) then
       resource.save
       return render :json => {"success" => true}
     else
