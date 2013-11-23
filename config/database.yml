@@ -34,8 +34,8 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: SagePoint_prod
+  database: SagePoint_production
+  host: 10.211.143.48
   pool: 5
-  username: root
-  password: tr00
-  socket: /var/run/mysqld/mysqld.sock
+  username: spdb
+  password: tr00th&E
