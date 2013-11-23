@@ -66,12 +66,12 @@ SagepointApi::Application.configure do
   config.action_mailer.default_url_options = { :host => 'http://portal.alpha.sagepointsoftware.com/#' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    :address => "mail.authsmtp.com",
-    :port => "25",
+    :address => "smtp.sendgrid.net",
+    :port => "587",
     :domain => "sagepointsoftware.com",
     :authentication => :plain,
-    :user_name => "ac39582",
-    :password => "nuxk9wndw"
+    :user_name => "rwilner",
+    :password => "S@ge?101"
   }
 
   #config.action_mailer.raise_delivery_errors = false
