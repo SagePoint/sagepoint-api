@@ -71,7 +71,8 @@ SagepointApi::Application.configure do
     :domain => "sagepointsoftware.com",
     :authentication => :plain,
     :user_name => "rwilner",
-    :password => "S@ge?101"
+    :password => "S@ge?101",
+    :enable_starttls_auto => true
   }
 
   #config.action_mailer.raise_delivery_errors = false
