@@ -53,7 +53,7 @@ SagepointApi::Application.configure do
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
-  config.cache_store = :mem_cache_store, 'sagepoint.com:11211', {:namespace => 'SAGEPOINT-API'}
+  config.cache_store = :mem_cache_store, '10.210.199.153:11211', {:namespace => 'SAGEPOINT-API'}
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = "http://assets.example.com"
 
@@ -65,7 +65,7 @@ SagepointApi::Application.configure do
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   config.action_mailer.default_url_options = { :host => 'http://portal.alpha.sagepointsoftware.com/#' }
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = { 
+  config.action_mailer.smtp_settings = {
     :address => "mail.authsmtp.com",
     :port => "25",
     :domain => "sagepointsoftware.com",
