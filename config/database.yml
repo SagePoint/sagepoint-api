@@ -31,6 +31,15 @@ test:
   port: 3306
   host: 127.0.0.1
 
+alpha:
+  adapter: mysql2
+  encoding: utf8
+  database: SagePoint_prod
+  pool: 5
+  username: root
+  password: tr00
+  socket: /var/run/mysqld/mysqld.sock
+
 production:
   adapter: mysql2
   encoding: utf8

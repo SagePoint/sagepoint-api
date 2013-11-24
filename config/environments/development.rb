@@ -14,7 +14,7 @@ SagepointApi::Application.configure do
   config.action_controller.perform_caching = false
 
   # Mailer stuff
-  config.action_mailer.default_url_options = { :host => 'v2.local.sagepointsoftware.com/#' }
+  config.action_mailer.default_url_options = { :host => 'portal.local.sagepointsoftware.com/#' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
   config.action_mailer.raise_delivery_errors = false
