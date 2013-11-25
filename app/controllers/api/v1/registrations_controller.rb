@@ -5,6 +5,15 @@ class Api::V1::RegistrationsController < Devise::RegistrationsController
   respond_to :json
   include ApiHelper
 
+  #TODO
+  #REFACTOR: extract method
+  after_filter :set_access_control_headers
+
+  def set_access_control_headers
+    headers['Access-Control-Allow-Origin'] = '*'
+    headers['Access-Control-Request-Method'] = '*'
+  end
+
   # GET /resource/sign_up
   def new
     _log("NEW")
