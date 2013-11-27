@@ -29,6 +29,6 @@ SagepointApi::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  config.cache_store = :mem_cache_store, 'localhost:11211', {:namespace => 'SAGEPOINT-API'}
+  config.cache_store = :mem_cache_store, '10.210.199.153:11211', {:namespace => 'SAGEPOINT-API'}
 
 end

@@ -43,7 +43,7 @@ SagepointApi::Application.configure do
   # config.force_ssl = true
 
   # Set to :debug to see everything in the log.
-  config.log_level = :info
+  config.log_level = :debug
 
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]
@@ -63,7 +63,7 @@ SagepointApi::Application.configure do
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
-  config.action_mailer.default_url_options = { :host => 'http://portal.alpha.sagepointsoftware.com/#' }
+  config.action_mailer.default_url_options = { :host => 'http://portal.stage.sagepointsoftware.com/#' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     :address => "smtp.sendgrid.net",
