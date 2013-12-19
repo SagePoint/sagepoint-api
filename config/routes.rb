@@ -33,7 +33,11 @@ SagepointApi::Application.routes.draw do
       end
 
       controller :secure do
-        get 'secure/' => :index
+        get "secure/" => :index
+      end
+
+      controller :contact do
+        post "contact", :to => "contact#create"
       end
     end
   end

@@ -20,21 +20,22 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  api:
-    v1:
-      token:
-        invalid_token: 'Invalid authentication token'
-        missing_email: 'Email parameter is missing'
-        token_email_mismatch: 'The token and email supplied do not match'
-      sessions:
-        invalid_login: 'Login information is incorrect, please try again'
-        account_disabled: 'Your account is disabled. Please contact your administrator'
-      passwords:
-        invalid_account: 'Your email could not be found in the system'
-      unauthorized:	'You must be logged in to do that'
-      unprivileged:	'You do not have the access rights to do that'
-      registrations:
-        generic_error: 'There was a registration error'
-        passwords_dont_match: 'The passwords did not match'
-        missing_parameter: 'You must supply both password and password_confirmation fields'
-
+    api:
+        v1:
+            token:
+                invalid_token: 'Invalid authentication token'
+                missing_email: 'Email parameter is missing'
+                token_email_mismatch: 'The token and email supplied do not match'
+            sessions:
+                invalid_login: 'Login information is incorrect, please try again'
+                account_disabled: 'Your account is disabled. Please contact your administrator'
+            passwords:
+                invalid_account: 'Your email could not be found in the system'
+            unauthorized:   'You must be logged in to do that'
+            unprivileged:   'You do not have the access rights to do that'
+            registrations:
+                generic_error: 'There was a registration error'
+                passwords_dont_match: 'The passwords did not match'
+                missing_parameter: 'You must supply both password and password_confirmation fields'
+            contact:
+                customer_inquiry_email_sent: "Your message was sent! You'll be hearing from us soon"
