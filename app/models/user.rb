@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
 
   # has_one :resource_profile
   # has_one :user_alias
-  # belongs_to :employer
+  belongs_to :employer
   # has_many :drilldowns
   # has_many :skill_suggestions
   # has_many :reports

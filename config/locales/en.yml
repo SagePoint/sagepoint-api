@@ -29,6 +29,7 @@ en:
             sessions:
                 invalid_login: 'Login information is incorrect, please try again'
                 account_disabled: 'Your account is disabled. Please contact your administrator'
+                disabled_employer: "Your company has been disabled. Please contact your company's administrator or SagePoint Software support."
             passwords:
                 invalid_account: 'Your email could not be found in the system'
             unauthorized:   'You must be logged in to do that'

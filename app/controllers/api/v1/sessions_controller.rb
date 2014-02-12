@@ -19,11 +19,12 @@ class Api::V1::SessionsController < Devise::SessionsController
   def create
   	resource = User.find_for_database_authentication(:email => params[:email])
   	return failure unless resource
+    return failure('api.v1.sessions.disabled_employer') unless resource.employer.is_enabled
 
   	if resource.valid_password?(params[:password])
   		_log("Resource password correct: #{resource}")
   		_log("Checking if resource is enabled...")
-  		return failure_disabled if not resource.is_enabled?
+  		return failure('api.v1.sessions.account_disabled') if not resource.is_enabled?
   		sign_in(:user, resource)
   		resource.ensure_authentication_token!
   		render :json=> {:success => true, :token => resource.authentication_token}
@@ -47,12 +48,8 @@ class Api::V1::SessionsController < Devise::SessionsController
   	render :text => '', :content_type => 'text/plain'
   end
 
-  def failure
-  	return render json: { success: false, errors: [t('api.v1.sessions.invalid_login')] }, :status => :unauthorized
-  end
-
-  def failure_disabled
-  	return render json: { success: false, errors: [t('api.v1.sessions.account_disabled')] }, :status => :unauthorized
+  def failure(fstr = 'api.v1.sessions.invalid_login')
+    return render json: { success: false, errors: [t(fstr)] }, :status => :unauthorized
   end
 
 end
