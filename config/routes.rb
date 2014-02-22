@@ -39,6 +39,8 @@ SagepointApi::Application.routes.draw do
       controller :contact do
         post "contact", :to => "contact#create"
       end
+
+      resources :skills
     end
   end
 
