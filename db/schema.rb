@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131016230000) do
+ActiveRecord::Schema.define(version: 20140222110216) do
 
   create_table "addresses", force: true do |t|
     t.string  "address1"
@@ -22,8 +22,10 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.string  "description"
     t.integer "employer_id"
     t.string  "country"
-    t.boolean "enabled",     default: true
-    t.boolean "is_admin",    default: true
+    t.boolean "enabled",                             default: true
+    t.boolean "is_admin",                            default: true
+    t.decimal "latitude",    precision: 9, scale: 6
+    t.decimal "longitude",   precision: 9, scale: 6
   end
 
   create_table "billings", force: true do |t|
@@ -130,6 +132,7 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.text    "custom_field_names"
     t.string  "custom_logo"
     t.boolean "allow_resource_task_editing",             default: false
+    t.boolean "is_enabled",                              default: true
   end
 
   create_table "employers_roles", id: false, force: true do |t|
@@ -208,6 +211,18 @@ ActiveRecord::Schema.define(version: 20131016230000) do
   end
 
   add_index "match_results", ["task_profile_id"], name: "index_match_results_on_task_profile_id", using: :btree
+
+  create_table "metadatum", force: true do |t|
+    t.string  "key"
+    t.integer "ref_count"
+  end
+
+  add_index "metadatum", ["key"], name: "index_metadata_on_key", unique: true, using: :btree
+
+  create_table "metadatum_skills", id: false, force: true do |t|
+    t.integer "skill_id"
+    t.integer "metadatum_id"
+  end
 
   create_table "metrics", force: true do |t|
     t.string   "query"
@@ -472,7 +487,8 @@ ActiveRecord::Schema.define(version: 20131016230000) do
   end
 
   create_table "skills", force: true do |t|
-    t.string "skill_desc"
+    t.string  "skill_desc"
+    t.boolean "verified"
   end
 
   add_index "skills", ["skill_desc"], name: "skill_desc", type: :fulltext
@@ -603,8 +619,8 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
     t.string   "authentication_token"
-    t.datetime "created_at"
     t.datetime "updated_at"
+    t.datetime "created_at"
   end
 
   add_index "users", ["authentication_token"], name: "index_users_on_authentication_token", unique: true, using: :btree

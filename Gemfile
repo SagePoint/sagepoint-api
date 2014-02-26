@@ -46,6 +46,8 @@ gem 'dalli'
 gem 'rack-cors', :require => 'rack/cors'
 
 gem 'rubyfish'
+gem 'whenever'
+
 gem 'wirble', :group => :development
 gem 'jazz_hands', :group => :development
 # Use unicorn as the app server
