@@ -24,6 +24,11 @@ class User < ActiveRecord::Base
   # serialize :tos_accepted, Hash
   # attr_protected :id,:employer_id,:is_enabled
 
+  scope :enabled, where(:is_enabled=>true)
+  scope :active, where("current_sign_in_at > ?",(Time.now-6.month))
+  scope :daily_active, where("date(current_sign_in_at) >= DATE(DATE_SUB(NOW(),INTERVAL 1 DAY))") #TODO verify mysql time zone + production time zones align
+
+
   # def valid_user(user_types)
   #   return false unless user_types
   #   (user_types = [user_types]) unless user_types.is_a?(Array)
