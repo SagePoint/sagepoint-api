@@ -43,6 +43,7 @@ class Api::V1::PasswordsController < Devise::PasswordsController
   	return failure unless resource
 
   	raw = resource.send_reset_password_instructions
+    EmailLog.log!(nil,resource,'password_reset')
   	render :json=> {:success => true, :message => "Reset instructions sent to #{resource.email}", :raw => raw}
 
   end

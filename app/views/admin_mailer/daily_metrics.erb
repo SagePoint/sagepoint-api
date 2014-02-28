@@ -1,0 +1,8 @@
+<div>
+Metrics Timestamp: <%= Time.now.strftime("%m/%d/%Y %I:%M%p %Z")%>
+</div>
+<% @metrics_list.each do |metric|%>
+<div>
+	<div style="width:200px;text-align:right;color:#777777;display:inline;"><%= metric[0] %>:</div> <div style="width:200px;font-weight:bold;text-align:left;display:inline;"><%= metric[1] %></div>
+</div>
+<% end %>

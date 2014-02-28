@@ -19,7 +19,7 @@ gem 'execjs'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 
-# Use jquery as the JavaScript library
+
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -56,3 +56,9 @@ gem 'jazz_hands', :group => :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+group :development do
+  gem 'capistrano',          :require => nil 
+  gem 'capistrano-notifier', :require => nil  
+  gem 'mailcatcher',         :require => nil
+  gem 'foreman',             :require => nil 
+end
