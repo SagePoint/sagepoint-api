@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131016230000) do
+ActiveRecord::Schema.define(version: 20140301202537) do
 
   create_table "addresses", force: true do |t|
     t.string  "address1"
@@ -22,8 +22,10 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.string  "description"
     t.integer "employer_id"
     t.string  "country"
-    t.boolean "enabled",     default: true
-    t.boolean "is_admin",    default: true
+    t.boolean "enabled",                             default: true
+    t.boolean "is_admin",                            default: true
+    t.decimal "latitude",    precision: 9, scale: 6
+    t.decimal "longitude",   precision: 9, scale: 6
   end
 
   create_table "billings", force: true do |t|
@@ -109,6 +111,16 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.datetime "updated_at"
   end
 
+  create_table "email_logs", force: true do |t|
+    t.integer  "sender_id"
+    t.string   "sender_email"
+    t.integer  "receiver_id"
+    t.string   "receiver_email"
+    t.string   "message_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "employers", force: true do |t|
     t.text    "name",                                                    null: false
     t.integer "main_address_id"
@@ -130,6 +142,7 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.text    "custom_field_names"
     t.string  "custom_logo"
     t.boolean "allow_resource_task_editing",             default: false
+    t.boolean "is_enabled",                              default: true
   end
 
   create_table "employers_roles", id: false, force: true do |t|
@@ -419,6 +432,7 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.datetime "last_used_time"
   end
 
+  add_index "skill_ratings", ["skill_id", "val"], name: "skill_rating_and_skill_id", using: :btree
   add_index "skill_ratings", ["skill_id"], name: "index_skill_ratings_on_skill_id", using: :btree
 
   create_table "skill_requirements", force: true do |t|
@@ -440,10 +454,7 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.datetime "updated_at"
   end
 
-  add_index "skill_similars", ["similar_skill_id", "similarity"], name: "index_skill_similars_on_similar_skill_id_and_similarity", using: :btree
-  add_index "skill_similars", ["similar_skill_id"], name: "index_skill_similars_on_similar_skill_id", using: :btree
-  add_index "skill_similars", ["similarity"], name: "index_skill_similars_on_similarity", using: :btree
-  add_index "skill_similars", ["skill_id"], name: "index_skill_similars_on_skill_id", using: :btree
+  add_index "skill_similars", ["skill_id", "similarity"], name: "skill_similarity_and_skill_id", using: :btree
 
   create_table "skill_suggestions", force: true do |t|
     t.integer  "user_id",     null: false
@@ -472,7 +483,8 @@ ActiveRecord::Schema.define(version: 20131016230000) do
   end
 
   create_table "skills", force: true do |t|
-    t.string "skill_desc"
+    t.string   "skill_desc"
+    t.datetime "created_at"
   end
 
   add_index "skills", ["skill_desc"], name: "skill_desc", type: :fulltext
@@ -592,7 +604,6 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.datetime "last_report_update"
     t.string   "report_seq"
     t.boolean  "is_enabled",             default: true
-    t.string   "tos_accepted"
     t.string   "encrypted_password",     default: "",   null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
@@ -605,6 +616,7 @@ ActiveRecord::Schema.define(version: 20131016230000) do
     t.string   "authentication_token"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "tos_accepted"
   end
 
   add_index "users", ["authentication_token"], name: "index_users_on_authentication_token", unique: true, using: :btree

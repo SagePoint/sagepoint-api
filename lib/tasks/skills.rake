@@ -41,6 +41,55 @@ end
 
 namespace :skills do
 	include SkillHelper
+	include ActionView::Helpers::DateHelper
+	desc 'List groups of similar tasks'
+	task :similar_past_day => :environment do
+		hours = 24
+		puts "Calculating similar skills added since #{time_ago_in_words(hours.hours.ago)} ago..."
+		begin
+			model = "Skill".constantize
+			new_skills = model.find(:all, :conditions => ["created_at > ? AND verified IS NULL", hours.hours.ago])
+			skills = model.find(:all)
+			puts "#{new_skills.length} were added in the past #{time_ago_in_words(hours.hours.ago)}"
+			new_skills.each do |ns|
+				set = Set.new
+				set.add(ns)
+				as = breakIntoMetaArray(ns)
+				skills.each do |s|
+					next if s.id == ns.id
+					dist = getDistance(ns, s)
+					if  dist <= DISTANCE_THRESH
+						puts "------------> DISTANCE = #{dist} <= #{DISTANCE_THRESH} = #{dist <= DISTANCE_THRESH}"
+						set.add(s)
+					end
+					bs = breakIntoMetaArray(s)
+					next if as.length == bs.length
+
+					longest = [as,bs].group_by(&:size).max.last[0]
+					smallest = [as,bs].group_by(&:size).min.last[0]
+
+					dist = RubyFish::DamerauLevenshtein.distance(longest.last, smallest.last)
+					if  dist <= DISTANCE_THRESH
+						puts "------------> PREFIX DISTANCE = #{dist} <= #{DISTANCE_THRESH} = #{dist <= DISTANCE_THRESH}"
+						set.add(s)
+					end
+				end
+				if(set.length > 1)
+					set.each do |ss|
+						puts ss.skill_desc
+					end
+					ns.verified = 0
+					ns.save
+				end
+			end
+		rescue Exception => e
+			puts "Error: #{e.message}"
+		end
+	end
+end
+
+namespace :skills do
+	include SkillHelper
 	desc 'Break skill descriptions into metadata and insert into metadata table'
 	task :index => :environment do
 		puts "THIS WILL ERASE ALL METADATA! Type: 'BALLS' to continue"
