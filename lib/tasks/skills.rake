@@ -52,32 +52,6 @@ namespace :skills do
 			skills = model.find(:all)
 			puts "#{new_skills.length} were added in the past #{time_ago_in_words(hours.hours.ago)}"
 			new_skills.each do |ns|
-				set = Set.new
-				set.add(ns)
-				as = breakIntoMetaArray(ns)
-				skills.each do |s|
-					next if s.id == ns.id
-					dist = getDistance(ns, s)
-					if  dist <= DISTANCE_THRESH
-						puts "------------> DISTANCE = #{dist} <= #{DISTANCE_THRESH} = #{dist <= DISTANCE_THRESH}"
-						set.add(s)
-					end
-					bs = breakIntoMetaArray(s)
-					next if as.length == bs.length
-
-					longest = [as,bs].group_by(&:size).max.last[0]
-					smallest = [as,bs].group_by(&:size).min.last[0]
-
-					dist = RubyFish::DamerauLevenshtein.distance(longest.last, smallest.last)
-					if  dist <= DISTANCE_THRESH
-						puts "------------> PREFIX DISTANCE = #{dist} <= #{DISTANCE_THRESH} = #{dist <= DISTANCE_THRESH}"
-						set.add(s)
-					end
-				end
-				if(set.length > 1)
-					set.each do |ss|
-						puts ss.skill_desc
-					end
 					ns.verified = 0
 					ns.save
 				end
