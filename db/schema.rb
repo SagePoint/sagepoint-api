@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140228032734) do
+ActiveRecord::Schema.define(version: 20140305050347) do
 
   create_table "addresses", force: true do |t|
     t.string  "address1"
@@ -575,6 +575,8 @@ ActiveRecord::Schema.define(version: 20140228032734) do
     t.boolean  "is_shared",               default: false
     t.boolean  "is_locked",               default: false
     t.boolean  "is_editable_by_resource", default: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "task_types", force: true do |t|

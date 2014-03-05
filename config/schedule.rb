@@ -19,6 +19,10 @@
 
 # Learn more: http://github.com/javan/whenever
 
-every 1.day do
+every 1.day, :roles => [:nightly] do
   rake "skills:similar_past_day"
+end
+
+every 1.day, :at => '12:39 am', :roles => [:nightly]  do
+  rake "metrics:daily"
 end
