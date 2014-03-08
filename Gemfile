@@ -44,6 +44,7 @@ gem 'devise', '3.2.0'
 gem 'dalli'
 
 gem 'rack-cors', :require => 'rack/cors'
+gem 'whenever', :require => false
 
 gem 'rubyfish'
 gem 'whenever'
@@ -59,8 +60,8 @@ gem 'jazz_hands', :group => :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 group :development do
-  gem 'capistrano',          :require => nil 
-  gem 'capistrano-notifier', :require => nil  
+  gem 'capistrano',          :require => nil
+  gem 'capistrano-notifier', :require => nil
   gem 'mailcatcher',         :require => nil
-  gem 'foreman',             :require => nil 
+  gem 'foreman',             :require => nil
 end
