@@ -1,5 +1,10 @@
 SagepointApi::Application.routes.draw do
 
+
+controller :dashboard do
+  get "dashboard" => :index
+end
+
   # devise_for  :users,
   #             :controllers => {
   #               :sessions => "sessions"
@@ -17,7 +22,7 @@ SagepointApi::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root :to => 'devise/sessions#new'
   devise_scope :user do
-    root to: "devise/sessions#new"
+    root to: "api/v1/sessions#new"
   end
 
   resource :users

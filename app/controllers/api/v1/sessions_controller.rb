@@ -16,6 +16,11 @@ class Api::V1::SessionsController < Devise::SessionsController
   end
   #REFACTOR: end
 
+  def new
+    render :text => "hihihi"
+    return
+  end
+
   def create
   	resource = User.find_for_database_authentication(:email => params[:email])
   	return failure unless resource
