@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  before_save :ensure_authentication_token!
+  # before_save :ensure_authentication_token!
 
   has_one :resource_profile
   # has_one :user_alias
@@ -17,7 +17,7 @@ class User < ActiveRecord::Base
   # has_many :expiring_links
   has_and_belongs_to_many :user_types
   # has_and_belongs_to_many :roles
-  
+
   # has_many :certs
   # has_many :clearances
   # has_many :educations
