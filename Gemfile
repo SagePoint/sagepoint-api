@@ -49,6 +49,9 @@ gem 'whenever', :require => false
 gem 'rubyfish'
 gem 'wirble', :group => :development
 gem 'jazz_hands', :group => :development
+
+gem 'airbrake'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
