@@ -54,7 +54,7 @@ namespace :skills do
 			new_skills.each do |ns|
 					ns.verified = 0
 					ns.save
-				end
+			end
 		rescue Exception => e
 			puts "Error: #{e.message}"
 		end

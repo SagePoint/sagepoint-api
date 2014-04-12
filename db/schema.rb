@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140301202537) do
+ActiveRecord::Schema.define(version: 20140309013338) do
 
   create_table "addresses", force: true do |t|
     t.string  "address1"
@@ -77,6 +77,25 @@ ActiveRecord::Schema.define(version: 20140301202537) do
     t.string  "mailstop"
     t.string  "im_name"
   end
+
+  create_table "devises", force: true do |t|
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
+    t.string   "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer  "sign_in_count",          default: 0,  null: false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string   "current_sign_in_ip"
+    t.string   "last_sign_in_ip"
+    t.string   "users"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "devises", ["email"], name: "index_devises_on_email", unique: true, using: :btree
+  add_index "devises", ["reset_password_token"], name: "index_devises_on_reset_password_token", unique: true, using: :btree
 
   create_table "divisions", force: true do |t|
     t.string  "name"
@@ -221,6 +240,18 @@ ActiveRecord::Schema.define(version: 20140301202537) do
   end
 
   add_index "match_results", ["task_profile_id"], name: "index_match_results_on_task_profile_id", using: :btree
+
+  create_table "metadatum", force: true do |t|
+    t.string  "key"
+    t.integer "ref_count"
+  end
+
+  add_index "metadatum", ["key"], name: "index_metadata_on_key", unique: true, using: :btree
+
+  create_table "metadatum_skills", id: false, force: true do |t|
+    t.integer "skill_id"
+    t.integer "metadatum_id"
+  end
 
   create_table "metrics", force: true do |t|
     t.string   "query"
@@ -432,7 +463,6 @@ ActiveRecord::Schema.define(version: 20140301202537) do
     t.datetime "last_used_time"
   end
 
-  add_index "skill_ratings", ["skill_id", "val"], name: "skill_rating_and_skill_id", using: :btree
   add_index "skill_ratings", ["skill_id"], name: "index_skill_ratings_on_skill_id", using: :btree
 
   create_table "skill_requirements", force: true do |t|
@@ -454,7 +484,10 @@ ActiveRecord::Schema.define(version: 20140301202537) do
     t.datetime "updated_at"
   end
 
-  add_index "skill_similars", ["skill_id", "similarity"], name: "skill_similarity_and_skill_id", using: :btree
+  add_index "skill_similars", ["similar_skill_id", "similarity"], name: "index_skill_similars_on_similar_skill_id_and_similarity", using: :btree
+  add_index "skill_similars", ["similar_skill_id"], name: "index_skill_similars_on_similar_skill_id", using: :btree
+  add_index "skill_similars", ["similarity"], name: "index_skill_similars_on_similarity", using: :btree
+  add_index "skill_similars", ["skill_id"], name: "index_skill_similars_on_skill_id", using: :btree
 
   create_table "skill_suggestions", force: true do |t|
     t.integer  "user_id",     null: false
@@ -483,8 +516,8 @@ ActiveRecord::Schema.define(version: 20140301202537) do
   end
 
   create_table "skills", force: true do |t|
-    t.string   "skill_desc"
-    t.datetime "created_at"
+    t.string  "skill_desc"
+    t.boolean "verified"
   end
 
   add_index "skills", ["skill_desc"], name: "skill_desc", type: :fulltext
@@ -561,6 +594,8 @@ ActiveRecord::Schema.define(version: 20140301202537) do
     t.boolean  "is_shared",               default: false
     t.boolean  "is_locked",               default: false
     t.boolean  "is_editable_by_resource", default: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "task_types", force: true do |t|
@@ -604,6 +639,7 @@ ActiveRecord::Schema.define(version: 20140301202537) do
     t.datetime "last_report_update"
     t.string   "report_seq"
     t.boolean  "is_enabled",             default: true
+    t.string   "tos_accepted"
     t.string   "encrypted_password",     default: "",   null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
@@ -614,9 +650,8 @@ ActiveRecord::Schema.define(version: 20140301202537) do
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
     t.string   "authentication_token"
-    t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "tos_accepted"
+    t.datetime "created_at"
   end
 
   add_index "users", ["authentication_token"], name: "index_users_on_authentication_token", unique: true, using: :btree

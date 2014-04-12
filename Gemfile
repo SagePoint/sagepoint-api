@@ -47,6 +47,8 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'whenever', :require => false
 
 gem 'rubyfish'
+gem 'whenever'
+
 gem 'wirble', :group => :development
 gem 'jazz_hands', :group => :development
 

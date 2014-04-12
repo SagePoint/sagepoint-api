@@ -5,7 +5,11 @@
 
 # Example:
 #
+<<<<<<< HEAD
+set :output, "log/cron.log"
+=======
 # set :output, "/path/to/my/cron_log.log"
+>>>>>>> 623c6ca82ee70fe3a454a9e8d7bd6b5249256d5a
 #
 # every 2.hours do
 #   command "/usr/bin/some_great_command"
@@ -18,7 +22,10 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
-
-every 1.day do
+every 1.day, :roles => [:nightly] do
   rake "skills:similar_past_day"
+end
+
+every 1.day, :at => '12:39 am', :roles => [:nightly]  do
+  rake "metrics:daily"
 end
