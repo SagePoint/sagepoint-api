@@ -55,7 +55,6 @@ namespace :skills do
 					ns.verified = 0
 					ns.save
 				end
-			end
 		rescue Exception => e
 			puts "Error: #{e.message}"
 		end
